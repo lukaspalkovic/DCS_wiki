@@ -1,3 +1,3 @@
-**Connector description and pins assignment**
+## **Connector description and pins assignment**
 
 BAT_SENS
