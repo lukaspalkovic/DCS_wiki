@@ -93,10 +93,27 @@
 | 3 | CAN2_N |
 | 4 | GND |
 
-****
+
+**PWM1**
 | pin | function |
 | ------ | ------ |
-| 1 |  |
-| 2 |  |
-| 3 |  |
-| 4 |  |
+| 1 | PWM1 |
+| 2 | PWM2 |
+| 3 | PWM3 |
+| 4 | PWM4 |
+| 5 | PWM5 |
+| 6 | PWM6 |
+| 7 | PWM7 |
+| 8 | GND |
+
+**PWM2**
+| pin | function |
+| ------ | ------ |
+| 1 | PWM8 |
+| 2 | FMU_CH1 |
+| 3 | FMU_CH2 |
+| 4 | FMU_CH3 |
+| 5 | FMU_CH4 |
+| 6 | FMU_CH5 |
+| 7 | FMU_CH6 |
+| 8 | GND |
