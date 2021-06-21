@@ -117,3 +117,15 @@
 | 6 | FMU_CH5 |
 | 7 | FMU_CH6 |
 | 8 | GND |
+
+## Nvidia Jetson connectors
+
+**GPS (Jetson)**
+| pin | function |
+| ------ | ------ |
+| 1 |  |
+| 2 |  |
+| 3 |  |
+| 4 |  |
+| 5 |  |
+| 6 |  |
