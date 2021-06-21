@@ -1,4 +1,4 @@
-## BAT_SENS
+**BAT_SENS**
 | pin | function |
 | ------ | ------ |
 | 1 | BAT_V_SENSE |
