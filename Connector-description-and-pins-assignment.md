@@ -123,9 +123,37 @@
 **GPS (Jetson)**
 | pin | function |
 | ------ | ------ |
+| 1 | 5V |
+| 2 | UART0_Tx |
+| 3 | UART0_Rx |
+| 4 | I2C0_SCL |
+| 5 | I2C0_SDA |
+| 6 | GND |
+
+**SPI0 (Jetson)**
+| pin | function |
+| ------ | ------ |
+| 1 | 5V |
+| 2 | SPI0_CS1 |
+| 3 | SPI0_CS0 |
+| 4 | SPI0_MISO |
+| 5 | SPI0_CLK |
+| 6 | SPI0_MOSI |
+| 7 | 3.3V supply |
+| 8 | GND |
+
+**FAN1**
+| pin | function |
+| ------ | ------ |
 | 1 |  |
 | 2 |  |
 | 3 |  |
 | 4 |  |
-| 5 |  |
-| 6 |  |
+
+**FAN2**
+| pin | function |
+| ------ | ------ |
+| 1 | FAN_PWM |
+| 2 | FAN_TACH |
+| 3 | 5V |
+| 4 | GND |
