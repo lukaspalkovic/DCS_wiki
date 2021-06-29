@@ -258,3 +258,8 @@
 ![usb_dev_conn](uploads/cb94e315e3ee7db777eac98a7460f105/usb_dev_conn.png)
 - possible to use only as jetson usb-device 
 - when micro usb cable connected between board and host PC, Jetson acts like usb-device.
+
+**HDMI**
+
+![hdmi_conn](uploads/4b18d5191b0dd2e3c78108d193d6c993/hdmi_conn.png)
+- connect with micro hdmi cable to external display
