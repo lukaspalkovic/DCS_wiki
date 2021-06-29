@@ -159,6 +159,11 @@
 | 4 | GND |
 
 **ETHERNET**
+
+- compatible with standard 16 pin / 0.5mm pitch FPC cables 
+- to be able to connect Jetson to network via standard ethernet cable, use aepilot1_ethernet_expansion_board
+- power to this connector is not protected against overcurrent.
+
 | pin | function |
 | ------ | ------ |
 | 1 | GBE_B3_P |
@@ -280,7 +285,9 @@
 
 **GPIOS**
 - Nvidia Jetson GPIOS connector
-- pins 1,2 are connected with Jetson debug UART which natively supports serial console. UART number varies depending on type of Jetson. 
+- pins 1,2 are connected to Jetson debug UART which natively supports serial console. UART number varies depending on type of Jetson. 
+- pins 1 - 4: 3V3 logic
+- pins 5,6: 1.8V logic
 ![gpios_conn](uploads/28a62ca8aa5ba34bccb8c531ac567e4e/gpios_conn.png)
 
 | pin | function |
