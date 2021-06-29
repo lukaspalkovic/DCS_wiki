@@ -252,3 +252,9 @@
 | 4 | GPIO_EXP2 |
 | 5 | GPIO_13 |
 | 6 | GPIO_12 |
+
+**USB_DEV**
+
+![usb_dev_conn](uploads/f3feb85c4f291c62b50db24c7f1d37aa/usb_dev_conn.png)
+- possible to use only as jetson usb-device 
+- when micro usb cable connected between board and host PC, Jetson acts like usb-device.
