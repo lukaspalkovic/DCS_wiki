@@ -241,6 +241,7 @@
 | 4 | GND3 |
 
 
+
 **GPIOS**
 
 ![gpios_conn](uploads/28a62ca8aa5ba34bccb8c531ac567e4e/gpios_conn.png)
@@ -263,3 +264,4 @@
 
 ![hdmi_conn](uploads/4b18d5191b0dd2e3c78108d193d6c993/hdmi_conn.png)
 - connect with micro hdmi cable to external display
+
