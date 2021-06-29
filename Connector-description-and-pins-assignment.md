@@ -231,6 +231,7 @@
 | 22 | GND |
 
 **CONTROL**
+
 ![control_conn](uploads/6f1964a053e8283f103d73b9087edd7c/control_conn.png)
 | pin | function |
 | ------ | ------ |
