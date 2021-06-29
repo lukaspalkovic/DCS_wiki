@@ -230,7 +230,32 @@
 | 21 | CSI_D0_N |
 | 22 | GND |
 
+**USB A,B,C,D**
+
+- USB 3.0 connectors 
+- maximum power supply: USB A:  10W, USB B,C,D: 5W 
+- compatible with Molex 538-15021 cable series
+
+| pin | function |
+| ------ | ------ |
+| 1 | GND |
+| 2 | RX_N |
+| 3 | RX_P |
+| 4 | GND |
+| 5 | TX_N |
+| 6 | TX_P |
+| 7 | GND |
+| 8 | D_N |
+| 9 | D_P |
+| 10 | GND |
+| 11 | GND |
+| 12 | 5V |
+| 13 | 5V |
+| 14 | 5V |
+| 15 | 5V |
+
 **CONTROL**
+- Nvidia Jetson control pins 
 
 ![control_conn](uploads/6f1964a053e8283f103d73b9087edd7c/control_conn.png)
 | pin | function |
@@ -243,6 +268,8 @@
 
 
 **GPIOS**
+- Nvidia Jetson GPIOS connector
+- pins 1,2 are connected with Jetson debug UART which natively supports serial console. UART number varies depending on type of Jetson. 
 
 ![gpios_conn](uploads/28a62ca8aa5ba34bccb8c531ac567e4e/gpios_conn.png)
 | pin | function |
@@ -264,4 +291,3 @@
 
 ![hdmi_conn](uploads/4b18d5191b0dd2e3c78108d193d6c993/hdmi_conn.png)
 - connect with micro hdmi cable to external display
-
