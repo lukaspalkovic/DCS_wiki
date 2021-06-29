@@ -255,6 +255,6 @@
 
 **USB_DEV**
 
-![usb_dev_conn](uploads/f3feb85c4f291c62b50db24c7f1d37aa/usb_dev_conn.png)
+![usb_dev_conn](uploads/cb94e315e3ee7db777eac98a7460f105/usb_dev_conn.png)
 - possible to use only as jetson usb-device 
 - when micro usb cable connected between board and host PC, Jetson acts like usb-device.
