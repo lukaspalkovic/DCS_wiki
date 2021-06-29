@@ -242,8 +242,7 @@
 
 
 **GPIOS**
-
-![gpios_conn](uploads/18b5ad1d4a14d7433601eec3f287e14d/gpios_conn.png)
+![gpios_conn](uploads/28a62ca8aa5ba34bccb8c531ac567e4e/gpios_conn.png)
 | pin | function |
 | ------ | ------ |
 | 1 | UART2_RXD |
