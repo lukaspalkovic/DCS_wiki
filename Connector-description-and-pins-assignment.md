@@ -231,7 +231,7 @@
 | 22 | GND |
 
 **CONTROL**
-![control_conn](uploads/ebafce8410a790510250876c67b6c9b8/control_conn.png)
+![control_conn](uploads/66663bcefe02fb7e14d71a5c4f5b23c1/control_conn.png)
 | pin | function |
 | ------ | ------ |
 | 1 |  |
