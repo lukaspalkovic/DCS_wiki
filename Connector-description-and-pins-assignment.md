@@ -1,4 +1,5 @@
 ## The Cube connectors
+- all Cube related connector signal names come from official carrier board [git](https://github.com/proficnc/The-Cube).
 
 **BAT_SENS**
 | pin | function |
@@ -121,6 +122,10 @@
 ## Nvidia Jetson connectors
 
 **GPS (Jetson)**
+
+- power supply is not protected against overcurrent.
+- UART and I2C -> 3V3 voltage logic 
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -131,6 +136,10 @@
 | 6 | GND |
 
 **SPI0 (Jetson)**
+
+- 3V3 and 5V supplies are not protected against overcurrent.
+- 3V3 SPI voltage logic 
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -143,6 +152,13 @@
 | 8 | GND |
 
 **FAN1**
+
+- FAN1 and FAN2 are connected in parallel
+- standard fan connector
+- only one 4-pin fan controlled with pwm/tach can be connected
+- for second fan choose simple 2-wire DC fan
+ 
+
 | pin | function |
 | ------ | ------ |
 | 1 | GND |
@@ -151,6 +167,10 @@
 | 4 | FAN_PWM |
 
 **FAN2**
+
+- Molex 53398-0467 connector
+- compatible with xavier nx original cooler
+
 | pin | function |
 | ------ | ------ |
 | 1 | FAN_PWM |
@@ -162,7 +182,7 @@
 
 - compatible with standard 16 pin / 0.5mm pitch FPC cables 
 - to be able to connect Jetson to network via standard ethernet cable, use aepilot1_ethernet_expansion_board
-- power to this connector is not protected against overcurrent.
+- power to this connector is not protected against overcurrent
 
 | pin | function |
 | ------ | ------ |
@@ -188,6 +208,8 @@
 - 4 lines MIPI CSI connectors
 - power to this connector is not protected so be aware of potential short-circuits on the connected devices. 
 - pay attention to cable pins orientation (same / opposite side contacts). Wrong cable can cause short-circuit!
+- separate MCLK pin (pin 122 on Jetson)
+- I2C and PWND are 3V3 logic
 
 | pin | function |
 | ------ | ------ |
@@ -219,6 +241,9 @@
 - 2 lines MIPI CSI connectors
 - power to these connectors are not protected so be aware of potential short-circuits on the connected devices. 
 - pay attention to cable pins orientation (same / opposite side contacts). Wrong cable can cause short-circuit!
+- CSI A,B,C shares the same MCLK pin (pin 116 on Jetson)
+- CSI E,F shares the same MCLK pin (pin 216 on Jetson)
+- I2C and PWND are 3V3 logic
  
 | pin | function |
 | ------ | ------ |
@@ -251,6 +276,7 @@
 - maximum power supply: USB A:  10W, USB B,C,D: 5W 
 - connectors are protected against overcurrent, separately on every port. 
 - compatible with Molex 538-15021 cable series
+- voltage levels according to usb standards
 
 | pin | function |
 | ------ | ------ |
@@ -272,6 +298,7 @@
 
 **CONTROL**
 - Nvidia Jetson control pins 
+- 1.8V logic
 
 ![control_conn](uploads/6f1964a053e8283f103d73b9087edd7c/control_conn.png)
 | pin | function |
@@ -286,8 +313,8 @@
 **GPIOS**
 - Nvidia Jetson GPIOS connector
 - pins 1,2 are connected to Jetson debug UART which natively supports serial console. UART number varies depending on type of Jetson. 
-- pins 1 - 4: 3V3 logic
-- pins 5,6: 1.8V logic
+- pins 1 - 4 -> 3V3 logic
+- pins 5,6 -> 1.8V logic
 ![gpios_conn](uploads/28a62ca8aa5ba34bccb8c531ac567e4e/gpios_conn.png)
 
 | pin | function |
