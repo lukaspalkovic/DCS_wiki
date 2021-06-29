@@ -282,6 +282,7 @@
 - Nvidia Jetson GPIOS connector
 - pins 1,2 are connected with Jetson debug UART which natively supports serial console. UART number varies depending on type of Jetson. 
 ![gpios_conn](uploads/28a62ca8aa5ba34bccb8c531ac567e4e/gpios_conn.png)
+
 | pin | function |
 | ------ | ------ |
 | 1 | UART2_RXD |
