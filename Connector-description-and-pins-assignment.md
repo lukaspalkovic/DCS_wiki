@@ -240,6 +240,7 @@
 | 3 | FORCE_RECOVERY |
 | 4 | GND3 |
 
+
 **GPIOS**
 
 ![gpios_conn](uploads/18b5ad1d4a14d7433601eec3f287e14d/gpios_conn.png)
