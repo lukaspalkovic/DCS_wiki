@@ -179,6 +179,11 @@
 | 16 | 5V |
 
 **CSI D (4-lines CSI)**
+
+- 4 lines MIPI CSI connectors
+- power to this connector is not protected so be aware of potential short-circuits on the connected devices. 
+- pay attention to cable pins orientation (same / opposite side contacts). Wrong cable can cause short-circuit!
+
 | pin | function |
 | ------ | ------ |
 | 1 | 3V3 |
@@ -205,6 +210,11 @@
 | 22 | GND |
 
 **CSI A,B,C,E,F (2-lines CSI)**
+
+- 2 lines MIPI CSI connectors
+- power to these connectors are not protected so be aware of potential short-circuits on the connected devices. 
+- pay attention to cable pins orientation (same / opposite side contacts). Wrong cable can cause short-circuit!
+ 
 | pin | function |
 | ------ | ------ |
 | 1 | 3V3 |
@@ -234,6 +244,7 @@
 
 - USB 3.0 connectors 
 - maximum power supply: USB A:  10W, USB B,C,D: 5W 
+- connectors are protected against overcurrent, separately on every port. 
 - compatible with Molex 538-15021 cable series
 
 | pin | function |
