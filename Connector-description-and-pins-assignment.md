@@ -235,17 +235,19 @@
 ![control_conn](uploads/6f1964a053e8283f103d73b9087edd7c/control_conn.png)
 | pin | function |
 | ------ | ------ |
-| 1 |  |
-| 2 |  |
-| 3 |  |
-| 4 |  |
+| 1 | GND |
+| 2 | SYS_RST |
+| 3 | FORCE_RECOVERY |
+| 4 | GND3 |
 
 **GPIOS**
+
+![gpios_conn](uploads/c570e5d33a0c9a9942348b86696a65e3/gpios_conn.png)
 | pin | function |
 | ------ | ------ |
-| 1 |  |
-| 2 |  |
-| 3 |  |
-| 4 |  |
-| 5 |  |
-| 6 |  |
+| 1 | UART2_RXD |
+| 2 | UART2_TXD |
+| 3 | GPIO_EXP1 |
+| 4 | GPIO_EXP2 |
+| 5 | GPIO_13 |
+| 6 | GPIO_12 |
