@@ -123,6 +123,8 @@
 
 ## Nvidia Jetson connectors
 
+![board_top_jetson_part](uploads/43ce073929d1329ddf2e92f3d77470ef/board_top_jetson_part.png)
+
 **GPS (Jetson)**
 
 - power supply is not protected against overcurrent.
