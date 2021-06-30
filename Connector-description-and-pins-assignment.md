@@ -1,6 +1,8 @@
 ## The Cube connectors
 - all Cube related connector signal names come from official The Cube autopilot carrier board [git](https://github.com/proficnc/The-Cube).
 
+![board_top_cube_part](uploads/13f86d0ca128d22c2d89c03a2d4b60b8/board_top_cube_part.png)
+
 **BAT_SENS**
 | pin | function |
 | ------ | ------ |
