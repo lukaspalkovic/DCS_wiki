@@ -1,3 +1,16 @@
+## Board to board bottom connector
+- TODO add image 
+- matching connector: ept 404-52080-51
+- ready to connect with AE_PB6S40A power board
+
+**Bottom B2B**
+| pin | function |
+| ------ | ------ |
+| 1 |  |
+| 2 |  |
+| 3 |  |
+
+
 ## The Cube connectors
 - all Cube related connector signal names come from official The Cube autopilot carrier board [git](https://github.com/proficnc/The-Cube).
 
@@ -127,7 +140,7 @@
 
 **GPS (Jetson)**
 
-- power supply is not protected against overcurrent.
+- 5V power supply shared with SPI0 connector and is limited to 480mA
 - UART and I2C -> 3V3 voltage logic 
 
 | pin | function |
@@ -141,7 +154,8 @@
 
 **SPI0 (Jetson)**
 
-- 3V3 and 5V supplies are not protected against overcurrent.
+- 5V supply shared with GPS (Jetson) connector and is limited to 480mA
+- 3V3 supply not protected against overcurrent
 - 3V3 SPI voltage logic 
 
 | pin | function |
@@ -158,9 +172,10 @@
 **FAN1**
 
 - FAN1 and FAN2 are connected in parallel
-- standard fan connector
+- standard fan connector, matching with Molex 47054-1000 header
 - only one 4-pin fan controlled with pwm/tach can be connected
 - for second fan choose simple 2-wire DC fan
+- shares 5V supply with FAN2 and ETHERNET connector with 480mA current limitation
  
 
 | pin | function |
@@ -172,8 +187,9 @@
 
 **FAN2**
 
-- Molex 53398-0467 connector
+- matching with Molex 51021-0400 cable header
 - compatible with xavier nx original cooler
+- shares 5V supply with FAN1 and ETHERNET connector with 480mA current limitation
 
 | pin | function |
 | ------ | ------ |
@@ -186,7 +202,7 @@
 
 - compatible with standard 16 pin / 0.5mm pitch FPC cables 
 - to be able to connect Jetson to network via standard ethernet cable, use aepilot1_ethernet_expansion_board
-- power to this connector is not protected against overcurrent
+- shares 5V supply with FAN1 and FAN2 connectors with 480mA current limitation
 
 | pin | function |
 | ------ | ------ |
