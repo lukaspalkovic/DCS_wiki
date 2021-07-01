@@ -6,7 +6,7 @@
 **Bottom B2B**
 | pin | function |
 | ------ | ------ |
-| 1 |  |
+| 1 | // | 2 | // |
 | 2 |  |
 | 3 |  |
 
@@ -49,8 +49,8 @@
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | Serial4_Tx |
-| 3 | Serial4_Rx |
+| 2 | SERIAL4_TX |
+| 3 | SERIAL4_RX |
 | 4 | I2C_2_SCL |
 | 5 | I2C_2_SDA |
 | 6 | GND |
@@ -59,8 +59,8 @@
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | Serial3_Tx |
-| 3 | Serial3_Rx |
+| 2 | SERIAL3_TX |
+| 3 | SERIAL3_RX |
 | 4 | I2C_1_SCL |
 | 5 | I2C_1_SDA |
 | 6 | SAFETY |
@@ -82,18 +82,18 @@
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | Serial1_Tx |
-| 3 | Serial1_Rx |
-| 4 | Serial1_CTS |
-| 5 | Serial1_RTS|
+| 2 | SERIAL1_TX |
+| 3 | SERIAL1_RX |
+| 4 | SERIAL1_CTS |
+| 5 | SERIAL1_RTS|
 | 6 | GND |
 
 **SERIAL5**
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | Serial5_Tx |
-| 3 | Serial5_Rx |
+| 2 | SERIAL5_TX |
+| 3 | SERIAL5_RX |
 | 4 | S.BUS_OUT |
 | 5 | NC |
 | 6 | GND |
