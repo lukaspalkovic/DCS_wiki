@@ -8,9 +8,13 @@
 **Bottom B2B**
 | pin | function |
 | ------ | ------ |
-| 1 | // | 2 | // |
-| 3 | // | 2 | // |
-| 5 | // | 2 | // |
+| 1 | reserved |
+| 2 | reserved |
+| 3 |  | 
+| 4 |  | 
+|  |  |
+|  |  |
+|  |  |
 
 
 ## The Cube connectors
@@ -350,6 +354,7 @@
 - pins 1,2 are connected to Jetson debug UART which natively supports serial console. UART number varies depending on type of Jetson. 
 - pins 1 - 4 -> 3V3 logic
 - pins 5,6 -> 1.8V logic
+
 ![gpios_conn](uploads/28a62ca8aa5ba34bccb8c531ac567e4e/gpios_conn.png)
 
 | pin | function |
