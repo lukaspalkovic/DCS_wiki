@@ -21,21 +21,21 @@
 **BAT_SENS**
 | pin | function |
 | ------ | ------ |
-| 1 | BAT_V_SENSE |
-| 2 | BAT_I_SENSE |
+| 1 | BAT_VOLTAGE_SENS_PROT |
+| 2 | BAT_CURRENT_SENS_PROT |
 | 3 | GND |
 
 **ADC**
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | PRESS_SENSE |
+| 2 | PRESSURE_SENS_IN |
 | 3 | GND |
 
 **PPM**
 | pin | function |
 | ------ | ------ |
-| 1 | PPM |
+| 1 | PPM_SBUS_PROT |
 | 2 | 5V |
 | 3 | GND |
 
@@ -45,24 +45,24 @@
 | 1 | BUZZER+ |
 | 2 | BUZZER- |
 
-**GPS1**
+**GPS2**
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
 | 2 | Serial4_Tx |
 | 3 | Serial4_Rx |
-| 4 | I2C2_SCL |
-| 5 | I2C2_SDA |
+| 4 | I2C_2_SCL |
+| 5 | I2C_2_SDA |
 | 6 | GND |
 
-**GPS2**
+**GPS1**
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
 | 2 | Serial3_Tx |
 | 3 | Serial3_Rx |
-| 4 | I2C1_SCL |
-| 5 | I2C1_SDA |
+| 4 | I2C_1_SCL |
+| 5 | I2C_1_SDA |
 | 6 | SAFETY |
 | 7 | IO-LED_SAFET_PROT |
 | 8 | GND |
@@ -71,8 +71,8 @@
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | I2C2_SCL |
-| 3 | I2C2_SDA |
+| 2 | I2C_2_SCL |
+| 3 | I2C_2_SDA |
 | 4 | GND |
 
 **SERIAL1**
@@ -94,7 +94,7 @@
 | 1 | 5V |
 | 2 | Serial5_Tx |
 | 3 | Serial5_Rx |
-| 4 | SBUS_OUT |
+| 4 | S.BUS_OUT |
 | 5 | NC |
 | 6 | GND |
 
@@ -102,8 +102,8 @@
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | CAN1_P |
-| 3 | CAN1_N |
+| 2 | CAN_H_1 |
+| 3 | CAN_L_1|
 | 4 | GND |
 
 **CAN2**
@@ -113,33 +113,33 @@
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
-| 2 | CAN2_P |
-| 3 | CAN2_N |
+| 2 | CAN_H_2 |
+| 3 | CAN_L_2 |
 | 4 | GND |
 
 
 **PWM1**
 | pin | function |
 | ------ | ------ |
-| 1 | PWM1 |
-| 2 | PWM2 |
-| 3 | PWM3 |
-| 4 | PWM4 |
-| 5 | PWM5 |
-| 6 | PWM6 |
-| 7 | PWM7 |
+| 1 | IO-CH1-PROT |
+| 2 | IO-CH2-PROT |
+| 3 | IO-CH3-PROT |
+| 4 | IO-CH4-PROT |
+| 5 | IO-CH5-PROT |
+| 6 | IO-CH6-PROT |
+| 7 | IO-CH7-PROT |
 | 8 | GND |
 
 **PWM2**
 | pin | function |
 | ------ | ------ |
-| 1 | PWM8 |
-| 2 | FMU_CH1 |
-| 3 | FMU_CH2 |
-| 4 | FMU_CH3 |
-| 5 | FMU_CH4 |
-| 6 | FMU_CH5 |
-| 7 | FMU_CH6 |
+| 1 | IO-CH8-PROT |
+| 2 | FMU-CH1-PROT |
+| 3 | FMU-CH2-PROT |
+| 4 | FMU-CH3-PROT |
+| 5 | FMU-CH4-PROT |
+| 6 | FMU-CH5-PROT |
+| 7 | FMU-CH6-PROT |
 | 8 | GND |
 
 ## Nvidia Jetson connectors
