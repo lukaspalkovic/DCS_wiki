@@ -379,7 +379,7 @@
 | 1 | GND |
 | 2 | SYS_RST |
 | 3 | FORCE_RECOVERY |
-| 4 | GND3 |
+| 4 | GND |
 
 
 
