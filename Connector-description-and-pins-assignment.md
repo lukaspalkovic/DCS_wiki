@@ -6,15 +6,12 @@
 - ready to connect with AE_PB6S40A power board
 
 **Bottom B2B**
-| pin | function |
-| ------ | ------ |
-| 1 | reserved |
-| 2 | reserved |
-| 3 |  | 
-| 4 |  | 
-|  |  |
-|  |  |
-|  |  |
+| pin | function | pin | function |
+| ------ | ------ | ------ | ------ |
+| 1 | reserved | 41 | reserved |
+| 2 | reserved | 42 | reserved |
+ 
+
 
 
 ## The Cube connectors
