@@ -16,6 +16,8 @@
 
 ![board_top_cube_part](uploads/603f7fd81d5e096e5b1a724c6aec95b4/board_top_cube_part.png)
 
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply, with 1,5A current limitation
+
 **BAT_SENS**
 | pin | function |
 | ------ | ------ |
@@ -74,6 +76,9 @@
 | 4 | GND |
 
 **SERIAL1**
+
+- SERIAL1 connector has separate 5V protected line, with 1A current limitation
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -102,6 +107,9 @@
 | 4 | GND |
 
 **CAN2**
+
+- CAN2 is also routed to B2B connector, so if AE_PB6S40A is used, CAN2 is natively interconnected
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
