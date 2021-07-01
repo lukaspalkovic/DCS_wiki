@@ -7,8 +7,8 @@
 | pin | function |
 | ------ | ------ |
 | 1 | // | 2 | // |
-| 2 |  |
-| 3 |  |
+| 3 | // | 2 | // |
+| 5 | // | 2 | // |
 
 
 ## The Cube connectors
@@ -20,8 +20,6 @@
 
  - connector compatible with [The Cube Autopilot](https://ardupilot.org/copter/docs/common-thecube-overview.html)
 
-- all peripheral connectors (except SERIAL1) shares 5V protected power supply, with 1,5A current limitation
-
 **BAT_SENS**
 | pin | function |
 | ------ | ------ |
@@ -30,6 +28,9 @@
 | 3 | GND |
 
 **ADC**
+
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A current limitation
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
