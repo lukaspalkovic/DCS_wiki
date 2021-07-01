@@ -16,6 +16,10 @@
 
 ![board_top_cube_part](uploads/603f7fd81d5e096e5b1a724c6aec95b4/board_top_cube_part.png)
 
+**AUTOPILOT CONNECTOR**
+
+ - connector compatible with [The Cube Autopilot](https://ardupilot.org/copter/docs/common-thecube-overview.html)
+
 - all peripheral connectors (except SERIAL1) shares 5V protected power supply, with 1,5A current limitation
 
 **BAT_SENS**
