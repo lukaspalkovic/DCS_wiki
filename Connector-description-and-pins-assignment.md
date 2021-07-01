@@ -12,8 +12,8 @@
 | 2 | reserved | 42 | reserved |
 | 3 | I2C1_SDA | 43 | UART1_RX |
 | 4 | I2C1_SCL | 44 | UART1_TX | 
-| 5 | AUX_BAT_V | 45 | CAN_N |
-| 6 | AUX_BAT_A | 46 | CAN_P |
+| 5 | AUX_BAT_V | 45 | CAN_L_2 |
+| 6 | AUX_BAT_A | 46 | CAN_H_2 |
 | 7 | 5V_BACKUP | 47 | 5V_BACKUP |
 | 8 | 5V_BACKUP | 48 | 5V_BACKUP |
 | 9 | 5V_BACKUP | 49 | 5V_BACKUP |
