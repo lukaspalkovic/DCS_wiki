@@ -94,7 +94,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 &nbsp;
 
-   `Example program:` //link to git 
+   `Example program:` [link to git](https://gitlab.com/aerobtec-drones/aepilot1_lowlevel_peripheral_drivers/-/tree/master/aepilot1_spi_driver) 
 
 &nbsp;
 
@@ -119,7 +119,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
   
 &nbsp;
   
-   `Example program:` //link to git
+   `Example program:` [link to git]](https://gitlab.com/aerobtec-drones/aepilot1_lowlevel_peripheral_drivers/-/tree/master/aepilot1_i2c_driver)
 
 
 ## The Cube peripherals
