@@ -72,6 +72,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
       - ttyTHS1 = uart to 'GPS_Jetson' connector
       - ttyTCU0 = debug uart (GPIO pin header)
 
+    `Example program:` //link to git 
+
 &nbsp;
 
 - **SPI ports**
@@ -88,16 +90,30 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
     - spidev2.1 = gyroscope
     - spidev2.2 = barometer
 
+    `Example program:` //link to git 
+
 &nbsp;
 
 - **I2C**
-  - i2c-30 = CSIA connector
-  - CSIB => i2c-32 = CSIB connector
-  - CSIC => i2c-31 = CSIC connector
-  - CSID => i2c-33 = CSID connector
-  - CSIE => i2c-35
-  - CSIF => i2c-34
-  - 
+  - common
+    - i2c-30 = CSIA connector
+    - i2c-32 = CSIB connector
+    - i2c-31 = CSIC connector
+    - i2c-33 = CSID connector
+    - i2c-35 = CSIE connector
+    - i2c-34 = CSIF connector
+
+  - jetson nano
+    - i2c-? = B2B connector (power board)
+    - i2c-? = GPS(Jetson) connector
+    - i2c-? = M2 key E connector
+
+  - jetson xavier nx
+    - i2c-? = B2B connector (power board)
+    - i2c-? = GPS(Jetson) connector
+    - i2c-? = M2 key E connector
+    
+    `Example program:` //link to git
 
 
 ## The Cube peripherals
