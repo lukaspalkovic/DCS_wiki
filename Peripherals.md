@@ -19,7 +19,7 @@ You may either need to reboot or reload the udev rules :
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
-   `EXAMPLE: Set value on gpio64 to gnd`
+   `EXAMPLE: Set gpio64 logic level to LOW and then to HIGH`
 ```
 cat /sys/kernel/debug/gpio
 
