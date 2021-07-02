@@ -71,6 +71,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
       - ttyTHS0 = uart to autopilot
       - ttyTHS1 = uart to 'GPS_Jetson' connector
       - ttyTCU0 = debug uart (GPIO pin header)
+
 &nbsp;
 
    `Example program:` //link to git 
