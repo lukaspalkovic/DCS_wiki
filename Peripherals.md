@@ -70,9 +70,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
     - xavier nx (rev. 3+):
       - ttyTHS0 = uart to autopilot
       - ttyTHS1 = uart to 'GPS_Jetson' connector
-      - ttyTCU0 = debug uart (GPIO pin header)
-  
-
+      - ttyTCU0 = debug uart (GPIO pin header)</br>
 
     `Example program:` //link to git 
 
