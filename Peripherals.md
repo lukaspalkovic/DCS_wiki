@@ -94,7 +94,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 &nbsp;
 
-    `Example program:` //link to git 
+   `Example program:` //link to git 
 
 &nbsp;
 
@@ -119,7 +119,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
   
 &nbsp;
   
-    `Example program:`
+   `Example program:`
 
 
 ## The Cube peripherals
