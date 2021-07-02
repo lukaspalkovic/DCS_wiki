@@ -1,6 +1,7 @@
 ## Peripherals block diagram
 
 ![aepilot1_block_scheme.svg](uploads/5891a87aa9bcc1f4ddd29ee52ee2a210/aepilot1_block_scheme.svg)
+[PDF FORMAT](uploads/9856a56d99b819fba1efde74f8734ce4/aepilot1_block_schematic.pdf)
 
 ## Nvidia Jetson peripherals
 - **PINMUX**
@@ -62,12 +63,12 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 - **Serial ports**
    - jetson nano (rev. 3+):
-      - ttyTHS1 = uart to pixhawk cube
+      - ttyTHS1 = uart to autopilot
       - ttyTHS2  = uart to 'GPS_Jetson' connector
       - ttyS0  = uart to GPIO pin header
 
     - xavier nx (rev. 3+):
-      - ttyTHS0 = uart to pixhawk cube
+      - ttyTHS0 = uart to autopilot
       - ttyTHS1 = uart to 'GPS_Jetson' connector
       - ttyTCU0 = debug uart (GPIO pin header)
 
@@ -90,12 +91,13 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 &nbsp;
 
 - **I2C**
-  - CSIA => i2c-30
-  - CSIB => i2c-32
-  - CSIC => i2c-31
-  - CSID => i2c-33
+  - i2c-30 = CSIA connector
+  - CSIB => i2c-32 = CSIB connector
+  - CSIC => i2c-31 = CSIC connector
+  - CSID => i2c-33 = CSID connector
   - CSIE => i2c-35
   - CSIF => i2c-34
+  - 
 
 
 ## The Cube peripherals
