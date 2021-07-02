@@ -1,6 +1,6 @@
    **Peripherals block diagram** 
 
-![aepilot1_block_scheme.svg](uploads/06dc2ebce3ac8279d47f38c0d4434e2e/aepilot1_block_scheme.svg)
+![aepilot1_block_scheme.svg](uploads/5891a87aa9bcc1f4ddd29ee52ee2a210/aepilot1_block_scheme.svg)
 
    **Nvidia Jetson peripherals** 
 
