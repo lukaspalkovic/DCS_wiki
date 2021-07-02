@@ -37,7 +37,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 ```
 &nbsp;
 
-   `User controllable GPIOs with their kernel mapping numbers (NANO): `
+   **User controllable GPIOs with their kernel mapping numbers (NANO):**
 
 | HW number | Kernel mapping number | usage|
 | :--- | :---: | :--- |
@@ -49,7 +49,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | GPIO_EXP1 | ? | Free gpio |
 | GPIO_EXP2 | ? | Free gpio |
 
-   `User controllable GPIOs with their kernel mapping numbers (Xavier NX): `
+   **User controllable GPIOs with their kernel mapping numbers (Xavier NX):**
 
 | HW number | Kernel mapping number | usage|
 | :--- | :---: | :--- |
