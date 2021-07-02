@@ -406,3 +406,6 @@
 
 **HDMI**
 - connect with micro hdmi cable to external display
+
+**M2 key E**
+ - TOOD
