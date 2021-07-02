@@ -31,13 +31,14 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 &nbsp;
 
    `User controllable GPIOs with their kernel mapping numbers: `
-| **** | **** | ****|
+
 | HW number | Kernel mapping number | usage|
+| ------ | ------ | ------ |
 | Gpio4 | 65 | 5V_AP_SWITCH |
-Gpio6 - 64 (USB MUX SELECT)
-Gpio11- 200 (CAM_MCLK3)
-Gpio12- 194 
-Gpio13- 38
+| Gpio6 | 64 | (USB MUX SELECT)
+| Gpio11 | 200 | (CAM_MCLK3)
+| Gpio12 | 194 |  | 
+| Gpio13 | 38 |  |
 
 **The Cube peripherals**
 
