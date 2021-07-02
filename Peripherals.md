@@ -3,7 +3,7 @@
 ![aepilot1_block_scheme.svg](uploads/5891a87aa9bcc1f4ddd29ee52ee2a210/aepilot1_block_scheme.svg)
 
 ## Nvidia Jetson peripherals
-   - **GPIOs**
+- **GPIOs**
 
    `Setup rules:` 
 ```
@@ -40,15 +40,55 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | Gpio12 | 194 | Free gpio | 
 | Gpio13 | 38 | Free gpio |
 
-   `User controllable GPIOs with their kernel mapping numbers (NX) !TODO! : `
+   `User controllable GPIOs with their kernel mapping numbers (NX): `
 
 | HW number | Kernel mapping number | usage|
 | :--- | :---: | :--- |
-| Gpio4 | ? | 5V_AP_SWITCH |
+| Gpio4 | !TODO! | 5V_AP_SWITCH |
 | Gpio6 | ? | USB MUX SELECT |
 | Gpio11 | ? | CAM_MCLK3 |
 | Gpio12 | ? | Free gpio | 
 | Gpio13 | ? | Free gpio |
+
+- **Serial ports**
+   - jetson nano (rev. 3+):
+      - ttyTHS1 = uart to pixhawk cube
+      - ttyTHS2  = uart to 'GPS_Jetson' connector
+      - ttyS0  = uart to GPIO pin header
+
+    - xavier nx (rev. 3+):
+      - ttyTHS0 = uart to pixhawk cube
+      - ttyTHS1 = uart to 'GPS_Jetson' connector
+      - ttyTCU0 = debug uart (GPIO pin header)
+
+&nbsp;
+
+- **SPI ports**
+  - jetson nano
+    - spidev0.0 = SPI0 (Jetson) connector 
+    - spidev0.1 = SPI0 (Jetson) connector
+    - spidev1.0 = accelerometer
+    - spidev1.1 = gyroscope
+    - spidev1.2 = barometer
+  - xavier nx
+    - spidev0.0 = SPI0 (Jetson) connector
+    - spidev0.1 = SPI0 (Jetson) connector
+    - spidev2.0 = accelerometer
+    - spidev2.1 = gyroscope
+    - spidev2.2 = barometer
+
+
+&nbsp;
+
+- **CSI ports - i2c numbers**
+  - CSIA => i2c-30
+  - CSIB => i2c-32
+  - CSIC => i2c-31
+  - CSID => i2c-33
+  - CSIE => i2c-35
+  - CSIF => i2c-34
+
+&nbsp;
 
 ## The Cube peripherals
 
