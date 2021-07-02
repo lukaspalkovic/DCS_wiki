@@ -46,8 +46,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | Gpio11 | 200 | CAM_MCLK3 |
 | Gpio12 | 194 | Free gpio | 
 | Gpio13 | 38 | Free gpio |
-| GPIO_EXP1 | ? | Free gpio |
-| GPIO_EXP2 | ? | Free gpio |
+| GPIO_EXP1 | 502 | Free gpio |
+| GPIO_EXP2 | 503 | Free gpio |
 
    `User controllable GPIOs with their kernel mapping numbers (Xavier NX):`
 
@@ -108,12 +108,12 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
     - i2c-34 = CSIF connector
 
   - jetson nano
-    - i2c-? = B2B connector (power board)
+    - i2c-1 = B2B connector (power board)
     - i2c-? = GPS(Jetson) connector
     - i2c-? = M2 key E connector
 
   - jetson xavier nx
-    - i2c-? = B2B connector (power board)
+    - i2c-8 = B2B connector (power board)
     - i2c-? = GPS(Jetson) connector
     - i2c-? = M2 key E connector
   
