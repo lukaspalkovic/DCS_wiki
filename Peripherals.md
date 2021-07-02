@@ -1,8 +1,8 @@
-**Peripherals block diagram** 
+## Peripherals block diagram
 
 ![aepilot1_block_scheme.svg](uploads/5891a87aa9bcc1f4ddd29ee52ee2a210/aepilot1_block_scheme.svg)
 
-##**Nvidia Jetson peripherals** 
+## Nvidia Jetson peripherals
    - **GPIOs**
 
    `Setup rules:` 
@@ -50,6 +50,6 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | Gpio12 | ? | Free gpio | 
 | Gpio13 | ? | Free gpio |
 
-**The Cube peripherals**
+## The Cube peripherals
 
-**Interconnection Jetson <--> Cube** 
+## Interconnection Jetson <--> Cube 
