@@ -73,6 +73,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
       - ttyTCU0 = debug uart (GPIO pin header)
   
 
+
     `Example program:` //link to git 
 
 &nbsp;
