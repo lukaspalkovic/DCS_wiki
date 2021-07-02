@@ -72,6 +72,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
       - ttyTHS1 = uart to 'GPS_Jetson' connector
       - ttyTCU0 = debug uart (GPIO pin header)
 
+&nbsp;
+
     `Example program:` //link to git 
 
 &nbsp;
@@ -89,6 +91,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
     - spidev2.0 = accelerometer
     - spidev2.1 = gyroscope
     - spidev2.2 = barometer
+
+&nbsp;
 
     `Example program:` //link to git 
 
@@ -112,7 +116,9 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
     - i2c-? = B2B connector (power board)
     - i2c-? = GPS(Jetson) connector
     - i2c-? = M2 key E connector
-    
+  
+&nbsp;
+  
     `Example program:` //link to git
 
 
