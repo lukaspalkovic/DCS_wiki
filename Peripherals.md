@@ -23,14 +23,21 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 cat /sys/kernel/debug/gpio
 
-root@ubuntu:/home/aepilot1# echo 64 > /sys/class/gpio/export
-root@ubuntu:/home/aepilot1# echo out > /sys/class/gpio/gpio64/direction
-root@ubuntu:/home/aepilot1# echo 0 > /sys/class/gpio/gpio64/value
-root@ubuntu:/home/aepilot1# echo 1 > /sys/class/gpio/gpio64/value
+root@ubuntu:/home/user_name# echo 64 > /sys/class/gpio/export
+root@ubuntu:/home/user_name# echo out > /sys/class/gpio/gpio64/direction
+root@ubuntu:/home/user_name# echo 0 > /sys/class/gpio/gpio64/value
+root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 ```
 &nbsp;
 
-
+   `User controllable GPIOs with their kernel mapping numbers: `
+| **** | **** | ****|
+| HW number | Kernel mapping number | usage|
+| Gpio4 | 65 | 5V_AP_SWITCH |
+Gpio6 - 64 (USB MUX SELECT)
+Gpio11- 200 (CAM_MCLK3)
+Gpio12- 194 
+Gpio13- 38
 
 **The Cube peripherals**
 
