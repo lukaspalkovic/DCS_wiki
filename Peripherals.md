@@ -7,6 +7,7 @@
   - Jetson Nano pinmux spreadsheet, customized for aepilot1 : !TODO! upload spreadsheets
   - Jetson Xavier NX pinmux spreadsheet, customized for aepilot1 : 
 
+&nbsp;
 
 - **GPIOs**
 
@@ -86,10 +87,9 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
     - spidev2.1 = gyroscope
     - spidev2.2 = barometer
 
-
 &nbsp;
 
-- **CSI ports - i2c numbers**
+- **I2C**
   - CSIA => i2c-30
   - CSIB => i2c-32
   - CSIC => i2c-31
@@ -97,7 +97,6 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
   - CSIE => i2c-35
   - CSIF => i2c-34
 
-&nbsp;
 
 ## The Cube peripherals
 
