@@ -39,6 +39,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | Gpio11 | 200 | CAM_MCLK3 |
 | Gpio12 | 194 | Free gpio | 
 | Gpio13 | 38 | Free gpio |
+| GPIO_EXP1 | ? | Free gpio |
+| GPIO_EXP2 | ? | Free gpio |
 
    `User controllable GPIOs with their kernel mapping numbers (NX): `
 
@@ -49,6 +51,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | Gpio11 | ? | CAM_MCLK3 |
 | Gpio12 | ? | Free gpio | 
 | Gpio13 | ? | Free gpio |
+| GPIO_EXP1 | ? | Free gpio |
+| GPIO_EXP2 | ? | Free gpio |
 
 - **Serial ports**
    - jetson nano (rev. 3+):
