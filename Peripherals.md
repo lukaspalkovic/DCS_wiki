@@ -30,15 +30,25 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 ```
 &nbsp;
 
-   `User controllable GPIOs with their kernel mapping numbers: `
+   `User controllable GPIOs with their kernel mapping numbers (NANO): `
 
 | HW number | Kernel mapping number | usage|
-| ------ | ------ | ------ |
+| ------ | --- | ------ |
 | Gpio4 | 65 | 5V_AP_SWITCH |
-| Gpio6 | 64 | (USB MUX SELECT)
-| Gpio11 | 200 | (CAM_MCLK3)
-| Gpio12 | 194 |  | 
-| Gpio13 | 38 |  |
+| Gpio6 | 64 | USB MUX SELECT |
+| Gpio11 | 200 | CAM_MCLK3 |
+| Gpio12 | 194 | Free gpio | 
+| Gpio13 | 38 | Free gpio |
+
+   `User controllable GPIOs with their kernel mapping numbers (NX) !TODO! : `
+
+| HW number | Kernel mapping number | usage|
+| ------ | --- | ------ |
+| Gpio4 | ? | 5V_AP_SWITCH |
+| Gpio6 | ? | USB MUX SELECT |
+| Gpio11 | ? | CAM_MCLK3 |
+| Gpio12 | ? | Free gpio | 
+| Gpio13 | ? | Free gpio |
 
 **The Cube peripherals**
 
