@@ -408,4 +408,6 @@
 - connect with micro hdmi cable to external display
 
 **M2 key E**
- - TOOD
+ - connector includes PCIE, USB2.0, USART (shared with GPS(Jetson) connector, and I2C buses
+ - tested wifi cards: Intel AC-9260NGW, Intel AC-8265NGW
+     
