@@ -5,7 +5,7 @@
 **Nvidia Jetson peripherals** 
    - **GPIOs**
 
-       `Setup rules:` 
+   `Setup rules:` 
 ```
    $ sudo groupadd -f -r gpio
    $ sudo usermod -a -G gpio your_user_name
