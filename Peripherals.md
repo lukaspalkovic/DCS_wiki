@@ -124,4 +124,4 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 ## The Cube peripherals
 
-## Interconnection Jetson <--> Cube 
+## Interconnection Jetson <--> Flight controller unit 
