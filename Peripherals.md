@@ -3,6 +3,11 @@
 ![aepilot1_block_scheme.svg](uploads/5891a87aa9bcc1f4ddd29ee52ee2a210/aepilot1_block_scheme.svg)
 
 ## Nvidia Jetson peripherals
+- **PINMUX**
+  - Jetson Nano pinmux spreadsheet, customized for aepilot1 : !TODO! upload spreadsheets
+  - Jetson Xavier NX pinmux spreadsheet, customized for aepilot1 : 
+
+
 - **GPIOs**
 
    `Setup rules:` 
@@ -42,7 +47,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | GPIO_EXP1 | ? | Free gpio |
 | GPIO_EXP2 | ? | Free gpio |
 
-   `User controllable GPIOs with their kernel mapping numbers (NX): `
+   `User controllable GPIOs with their kernel mapping numbers (Xavier NX): `
 
 | HW number | Kernel mapping number | usage|
 | :--- | :---: | :--- |
