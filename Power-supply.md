@@ -1,2 +1,2 @@
 **Power supply**
-![aepilot1_power_distribution_diagram.svg](uploads/2126cfd7d9a4e628072a1051c9f9079a/aepilot1_power_distribution_diagram.svg)
+![aepilot1_power_distribution_diagram.svg](uploads/b0a88a4ef470d9342aa925c43af5df7a/aepilot1_power_distribution_diagram.svg)
