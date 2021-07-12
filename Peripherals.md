@@ -53,13 +53,13 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 | HW number | Kernel mapping number | usage|
 | :--- | :---: | :--- |
-| Gpio4 | !TODO! | 5V_AP_SWITCH |
-| Gpio6 | ? | USB MUX SELECT |
-| Gpio11 | ? | CAM_MCLK3 |
-| Gpio12 | ? | Free gpio | 
-| Gpio13 | ? | Free gpio |
-| GPIO_EXP1 | ? | Free gpio |
-| GPIO_EXP2 | ? | Free gpio |
+| Gpio4 | 265 | 5V_AP_SWITCH |
+| Gpio6 | 267 | USB MUX SELECT |
+| Gpio11 | 422 | CAM_MCLK3 |
+| Gpio12 | 268 | Free gpio | 
+| Gpio13 | 393 | Free gpio |
+| GPIO_EXP1 | 246 | Free gpio |
+| GPIO_EXP2 | 247 | Free gpio |
 
 - **Serial ports**
    - jetson nano (rev. 3+):
