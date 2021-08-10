@@ -2,7 +2,7 @@
 
 ![aepilot1_block_schematic.svg](uploads/98ce78caeb167e56ff480c84d3489b15/aepilot1_block_schematic.svg)!
 
-[PDF FORMAT](uploads/258fb40f34c993a97586d228223020e6/aepilot1_block_schematic.pdf)
+[PDF FORMAT](uploads/b489070a338269dfc4ecd5bf27463de9/aepilot1_block_schematic.pdf)
 
 ## Nvidia Jetson peripherals
 - **PINMUX**
