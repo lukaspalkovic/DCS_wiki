@@ -1,3 +1,25 @@
 ![power_board_block_diagram.svg](uploads/7e9247c44d5a675a3d181d98849318b0/power_board_block_diagram.svg)
 
 [PDF FORMAT](uploads/8de001d3a2ea623b41782ea7e04a6803/power_board_block_diagram.pdf)
+
+- **LED CHANNELS**
+  - // which leds are supported 
+  - predefined effects
+  - how to control leds
+  - link to tutorial / example program
+
+- **CAN**
+  - which can messages are used  
+
+- **I2C**
+  - i2c address 
+  - timing 
+
+- **BMS I2C**
+  - (not implemented)
+
+- **Config**
+  - ////
+
+- **EXT. BUTTON**
+
