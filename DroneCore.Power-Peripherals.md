@@ -8,26 +8,36 @@
   - how to control leds
   - link to tutorial / example program
 
+&nbsp;
 
 - **CAN**
   - which can messages are used  
 
+&nbsp;
 
 - **I2C to B2B connector**
   - i2c address 
   - timing 
 
+&nbsp;
+
 - **UART to B2B connector**
   - for future use
 
+
+&nbsp;
 
 - **BMS I2C**
   - (not implemented)
 
 
+&nbsp;
+
 - **Config**
   - ////
 
+
+&nbsp;
 
 - **EXT. BUTTON**
 
