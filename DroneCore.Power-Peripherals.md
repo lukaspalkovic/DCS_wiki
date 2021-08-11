@@ -13,9 +13,12 @@
   - which can messages are used  
 
 
-- **I2C**
+- **I2C to B2B connector**
   - i2c address 
   - timing 
+
+- **UART to B2B connector**
+  - for future use
 
 
 - **BMS I2C**
