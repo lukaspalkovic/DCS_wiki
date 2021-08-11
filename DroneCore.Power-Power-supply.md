@@ -1,0 +1,1 @@
+![power_board___power_supply_diagram.svg](uploads/bd445cf063918ab4a26d0bf81bcebc7c/power_board___power_supply_diagram.svg)
