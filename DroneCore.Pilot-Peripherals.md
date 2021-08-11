@@ -1,6 +1,6 @@
 ## Peripherals block diagram
 
-![aepilot1_block_diagram.svg](uploads/2bd90861b12c6c324912df8593bd929b/aepilot1_block_diagram.svg)
+![aepilot1_block_diagram.svg](uploads/9c1efecef686a529833efb0cb671423d/aepilot1_block_diagram.svg)
 
 [PDF FORMAT]
 
