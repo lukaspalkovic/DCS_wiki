@@ -8,18 +8,23 @@
   - how to control leds
   - link to tutorial / example program
 
+
 - **CAN**
   - which can messages are used  
+
 
 - **I2C**
   - i2c address 
   - timing 
 
+
 - **BMS I2C**
   - (not implemented)
 
+
 - **Config**
   - ////
+
 
 - **EXT. BUTTON**
 
