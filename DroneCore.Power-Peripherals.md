@@ -1,1 +1,1 @@
-![power_board_block_diagram.svg](uploads/0aa07aa48eb5c475685a968ecb1b2349/power_board_block_diagram.svg)
+[power_board_block_diagram.drawio](uploads/cd21b7278a01e7dcd3b8a12d51cf28cf/power_board_block_diagram.drawio)
