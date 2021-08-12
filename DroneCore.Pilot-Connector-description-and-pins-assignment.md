@@ -3,7 +3,7 @@
 ![b2b_connector](uploads/84ca170feea9d025e0a72a419e6905b0/b2b_connector.png)
 
 - matching connector: ept 404-52080-51
-- ready to connect with AE_PB6S40A power board
+- ready to connect with DroneCore.Power
 
 **Bottom B2B**
 | pin | function | pin | function |
