@@ -1,1 +1,1 @@
-// all connectors
+## Board to board top connector
