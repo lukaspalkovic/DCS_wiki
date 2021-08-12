@@ -7,10 +7,9 @@
   - possible to connect up to 50 leds in sum of all channels
   - FRONT L, FRONT R, BACK L and BACK R are set to support maximum of 10 leds per channel
   - LED ADD is set to support maximum of 40 connected leds
-  - LED effects can be controlled from Jetson driver through I2C
-  - Default LEDs blinking color and frequency can be replaced with custom    
+  - LED effects can be controlled from Jetson driver through I2C    
 
-  - // link to tutorial / example program
+  - // add link to tutorial / example program
 
 &nbsp;
 
