@@ -24,8 +24,8 @@
 
 - **I2C to B2B connector**
   - connecting DroneCore.Pilot board creates direct I2C connection between Jetson and Power board
-  - //i2c address 
-  - //timing 
+  - I2C address 0x20 (0x10 from jetson driver) 
+  - clock speed up to 1MHz 
 
 &nbsp;
 
@@ -49,5 +49,5 @@
 &nbsp;
 
 - **EXT. BUTTON**
-  - active-low button expansion
-  - connector also includes still-alive 3V3 supply. 
+  - active-low button expansion, connect BUTTON pin to GND to make button pressed event 
+  - connector also includes still-alive 3V3 supply
