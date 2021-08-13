@@ -1,6 +1,50 @@
 ## Board to board top connector
 ![b2b_connecto_powerb](uploads/1d3214b69ac5ceef298804148f1d1814/b2b_connecto_powerb.png)
 
+| pin | function | pin | function |
+| ------ | ------ | ------ | ------ |
+| 1 | reserved | 41 | reserved |
+| 2 | reserved | 42 | reserved |
+| 3 | I2C1_SDA | 43 | UART1_RX |
+| 4 | I2C1_SCL | 44 | UART1_TX | 
+| 5 | AUX_BAT_V | 45 | CAN_L_2 |
+| 6 | AUX_BAT_A | 46 | CAN_H_2 |
+| 7 | 5V_BACKUP | 47 | 5V_BACKUP |
+| 8 | 5V_BACKUP | 48 | 5V_BACKUP |
+| 9 | 5V_BACKUP | 49 | 5V_BACKUP |
+| 10 | 5V_BACKUP | 50 | 5V_BACKUP |
+| 11 | 5V_BACKUP | 51 | 5V_BACKUP |
+| 12 | 5V_BACKUP | 52 | 5V_BACKUP |
+| 13 | GND | 53 | GND |
+| 14 | GND | 54 | GND |
+| 15 | GND | 55 | GND |
+| 16 | GND | 56 | GND |
+| 17 | GND | 57 | GND |
+| 18 | GND | 58 | GND |
+| 19 | GND | 59 | GND |
+| 22 | GND | 60 | GND |
+| 21 | GND | 61 | GND |
+| 22 | GND | 62 | GND |
+| 23 | GND | 63 | GND |
+| 24 | GND | 64 | GND |
+| 25 | GND | 65 | GND |
+| 26 | GND | 66 | GND |
+| 27 | GND | 67 | GND |
+| 28 | 5V_EXTERN | 68 | 5V_EXTERN |
+| 29 | 5V_EXTERN | 69 | 5V_EXTERN |
+| 30 | 5V_EXTERN | 70 | 5V_EXTERN |
+| 31 | 5V_EXTERN | 71 | 5V_EXTERN |
+| 32 | 5V_EXTERN | 72 | 5V_EXTERN |
+| 33 | 5V_EXTERN | 73 | 5V_EXTERN |
+| 34 | 5V_EXTERN | 74 | 5V_EXTERN |
+| 35 | VDD_MAIN | 75 | VDD_MAIN |
+| 36 | VDD_MAIN | 76 | VDD_MAIN |
+| 37 | VDD_MAIN | 77 | VDD_MAIN |
+| 38 | VDD_MAIN | 78 | VDD_MAIN |
+| 39 | VDD_MAIN | 79 | VDD_MAIN |
+| 40 | VDD_MAIN | 80 | VDD_MAIN |
+
+
 ## Top side connectors 
 
 //ADD photo of new revision with connectors pin1 direction mark (changes in config connector 2pin->3pin)
