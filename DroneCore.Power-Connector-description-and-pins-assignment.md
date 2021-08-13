@@ -1,4 +1,5 @@
 ## Board to board top connector
+![b2b_connecto_powerb](uploads/1d3214b69ac5ceef298804148f1d1814/b2b_connecto_powerb.png)
 
 ## Top side connectors 
 
@@ -28,6 +29,8 @@
 | 4 | 5V |
 
 **LED FRONT L, LED FRONT R, LED BACK L, LED BACK R, LED ADD**
+- sum of current of all led channels on 5V line is limited to 2.5A
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
