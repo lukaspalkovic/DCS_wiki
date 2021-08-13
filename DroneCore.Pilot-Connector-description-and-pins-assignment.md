@@ -393,8 +393,8 @@
 
 | pin | function |
 | ------ | ------ |
-| 1 | UART2_RXD |
-| 2 | UART2_TXD |
+| 1 | UART_RXD (Debug) |
+| 2 | UART_TXD (Debug) |
 | 3 | GPIO_EXP1 |
 | 4 | GPIO_EXP2 |
 | 5 | GPIO_13 |
