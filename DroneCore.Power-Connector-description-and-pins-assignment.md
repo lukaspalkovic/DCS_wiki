@@ -1,5 +1,6 @@
 ## Board to board top connector
 ![b2b_connecto_powerb](uploads/1d3214b69ac5ceef298804148f1d1814/b2b_connecto_powerb.png)
+-board supplies B2B connector with VDD_MAIN_SWITCHED which is VDD_MAIN controlled by MCU on the board
 
 | pin | function | pin | function |
 | ------ | ------ | ------ | ------ |
