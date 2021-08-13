@@ -5,10 +5,10 @@
 | ------ | ------ | ------ | ------ |
 | 1 | reserved | 41 | reserved |
 | 2 | reserved | 42 | reserved |
-| 3 | I2C1_SDA | 43 | UART1_RX |
-| 4 | I2C1_SCL | 44 | UART1_TX | 
-| 5 | AUX_BAT_V | 45 | CAN_L_2 |
-| 6 | AUX_BAT_A | 46 | CAN_H_2 |
+| 3 | UART1_RX | 43 | I2C1_SDA |
+| 4 | UART1_TX | 44 | I2C1_SCL | 
+| 5 | CAN_L_2 | 45 | AUX_BAT_V |
+| 6 | CAN_H_2 | 46 | AUX_BAT_A |
 | 7 | 5V_BACKUP | 47 | 5V_BACKUP |
 | 8 | 5V_BACKUP | 48 | 5V_BACKUP |
 | 9 | 5V_BACKUP | 49 | 5V_BACKUP |
@@ -37,12 +37,12 @@
 | 32 | 5V_EXTERN | 72 | 5V_EXTERN |
 | 33 | 5V_EXTERN | 73 | 5V_EXTERN |
 | 34 | 5V_EXTERN | 74 | 5V_EXTERN |
-| 35 | VDD_MAIN | 75 | VDD_MAIN |
-| 36 | VDD_MAIN | 76 | VDD_MAIN |
-| 37 | VDD_MAIN | 77 | VDD_MAIN |
-| 38 | VDD_MAIN | 78 | VDD_MAIN |
-| 39 | VDD_MAIN | 79 | VDD_MAIN |
-| 40 | VDD_MAIN | 80 | VDD_MAIN |
+| 35 | VDD_MAIN_SWITCHED | 75 | VDD_MAIN_SWITCHED |
+| 36 | VDD_MAIN_SWITCHED | 76 | VDD_MAIN_SWITCHED |
+| 37 | VDD_MAIN_SWITCHED | 77 | VDD_MAIN_SWITCHED |
+| 38 | VDD_MAIN_SWITCHED | 78 | VDD_MAIN_SWITCHED |
+| 39 | VDD_MAIN_SWITCHED | 79 | VDD_MAIN_SWITCHED |
+| 40 | VDD_MAIN_SWITCHED | 80 | VDD_MAIN_SWITCHED |
 
 
 ## Top side connectors 
