@@ -2,7 +2,7 @@
 
 ## Top side connectors 
 
-//ADD photo of new revision with connector pin1 direction mark (changes in config connector 2pin->3pin)
+//ADD photo of new revision with connectors pin1 direction mark (changes in config connector 2pin->3pin)
 
 **CONFIG**
 | pin | function |
@@ -35,6 +35,8 @@
 | 3 | GND |
 
 ## Bottom side connectors
+
+//ADD photo of new revision (changed logo and regulator unassembled)
 
 **BAT CELLS**
 | pin | function |
