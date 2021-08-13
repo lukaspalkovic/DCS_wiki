@@ -2,6 +2,8 @@
 
 ## Top side connectors 
 
+//ADD photo of new revision with connector pin1 direction mark (changes in config connector 2pin->3pin)
+
 **CONFIG**
 | pin | function |
 | ------ | ------ |
