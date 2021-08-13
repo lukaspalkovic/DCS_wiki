@@ -111,12 +111,10 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
   - jetson nano
     - i2c-1 = B2B connector (power board)
     - i2c-0 = GPS(Jetson) connector
-    - i2c-? = M2 key E connector
 
   - jetson xavier nx
     - i2c-8 = B2B connector (power board)
-    - i2c-? = GPS(Jetson) connector
-    - i2c-? = M2 key E connector
+    - i2c-1 = GPS(Jetson) connector
   
 &nbsp;
   
