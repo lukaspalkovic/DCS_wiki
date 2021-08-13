@@ -13,7 +13,7 @@
 
 - **GPIOs**
 
-   `Setup rules:` 
+   `Setup rules to be able to control gpios from terminal:` 
 ```
    $ sudo groupadd -f -r gpio
    $ sudo usermod -a -G gpio your_user_name
