@@ -24,6 +24,7 @@
 
 - **I2C to B2B connector**
   - connecting DroneCore.Pilot board creates direct I2C connection between Jetson and Power board
+  - Power board acts like a slave device
   - I2C address 0x20 (0x10 from jetson driver) 
   - clock speed up to 1MHz 
 
