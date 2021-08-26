@@ -1,6 +1,6 @@
-![power_board_block_diagram.svg](uploads/7e9247c44d5a675a3d181d98849318b0/power_board_block_diagram.svg)
+![power_board_block_diagram.svg](uploads/f95078e030d37badf95860e62245e223/power_board_block_diagram.svg)
 
-[PDF FORMAT](uploads/8de001d3a2ea623b41782ea7e04a6803/power_board_block_diagram.pdf)
+[PDF FORMAT](uploads/b64a435983be8ff24521170405fa9da4/power_board_block_diagram.pdf)
 
 - **LED CHANNELS**
   - supports WS2812 pwm communication protocol
