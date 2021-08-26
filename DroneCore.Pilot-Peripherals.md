@@ -1,8 +1,8 @@
 ## Peripherals block diagram
 
-![aepilot1_block_diagram.svg](uploads/85d438a627023dddc5491dedd3de72ca/aepilot1_block_diagram.svg)
+![aepilot1_block_diagram.svg](uploads/1ec747cd8155ff306736bedccf6e980f/aepilot1_block_diagram.svg)
 
-[PDF FORMAT](uploads/3683c24b13dccfee68c2318f7d2e6813/aepilot1_block_diagram.pdf)
+[PDF FORMAT](uploads/255396b1ac7fc4864930637860d029fa/aepilot1_block_diagram.pdf)
 
 ## Nvidia Jetson peripherals
 - **PINMUX**
