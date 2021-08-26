@@ -1,3 +1,4 @@
-![power_board___power_supply_diagram.svg](uploads/7cf39e0d48aca56c96958677e6d0ee24/power_board___power_supply_diagram.svg)
+![power_board___power_supply_diagram.svg](uploads/f2aeed769ee50ed36284ad7d87c20192/power_board___power_supply_diagram.svg)
 
-[PDF FORMAT](uploads/23d0a32379565b3d83f601bda00c35d8/power_board___power_supply_diagram.pdf)
+[PDF FORMAT](uploads/3efd3014c37849c61d115ad27550af0d/power_board___power_supply_diagram.pdf)
+
