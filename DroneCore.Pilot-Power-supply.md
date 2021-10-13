@@ -4,6 +4,8 @@
 
 [PDF FORMAT](uploads/3475e310a2746c29dc62faa2b54d5e2e/aepilot1_power_supply_diagram.pdf)
 
+@nbsp;
+
 **DroneCore.Pilot power consumption**
   Default system configuration consists of DroneCore.Pilot board connected with the Cube Orange and NVIDIA® Jetson Xavier™ NX Module. 
 
