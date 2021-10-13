@@ -23,9 +23,11 @@ This paragraph assumes that NVIDIA® Jetson Xavier™ NX is in 20W power mode an
     - imx477: off
     - power consumption 6W 
 
-  - **Situation 3:**
-    - NVIDIA® Jetson Xavier™ NX: CPU stress test, GPU stress test, 4k,30fps stream from camera
+  - **Situation 3:**    
+    - Xavier NX statistics: 
 ![jtop_stresstest](uploads/9c539f8f0a9ab941eede16c666bf304f/jtop_stresstest.png)
+<img src="/uploads/9c539f8f0a9ab941eede16c666bf304f/jtop_stresstest.png"  width="240" height="120">
+    - NVIDIA® Jetson Xavier™ NX: CPU stress test, GPU stress test, 4k,30fps stream from camera
     - Cube Orange: running
     - imx477: streaming
     - power consumption 21,1W 
