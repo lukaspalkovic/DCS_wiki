@@ -36,4 +36,4 @@ This paragraph assumes that NVIDIA® Jetson Xavier™ NX is in 20W power mode an
 
 
 **5V DC/DC specification**
-  - output voltage 
+  - input voltage, max current, sustainable current, thermal photos ...
