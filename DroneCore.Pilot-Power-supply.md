@@ -9,7 +9,13 @@
 **DroneCore.Pilot power consumption**
 
 Default system configuration consists of DroneCore.Pilot board connected with the Cube Orange and NVIDIA® Jetson Xavier™ NX Module. Power consumption of the whole system depends on usage of Jetson Xavier™ NX computing power and peripheral devices connected to board. 
+We describe some default situations for reference. This paragraph assumes that NVIDIA® Jetson Xavier™ NX is in 20W power mode and no other peripheral is connected to board.
   
+| System usage | Power consumption |
+| ------ | ------ | 
+| NVIDIA® Jetson Xavier™ NX booted but no user program code running
+Cube Orange running | 20.1W | 
+| 2 | reserved | 
 
 &nbsp;
 
