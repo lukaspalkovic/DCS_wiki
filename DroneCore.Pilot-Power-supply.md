@@ -39,4 +39,10 @@ This paragraph assumes that NVIDIA® Jetson Xavier™ NX is in 20W power mode an
 
 
 ## 5V DC/DC specification
-  - input voltage, max current, sustainable current, thermal photos ...
+As you can see in the "Power supply diagram", DroneCore.Pilot board contains 5V DC/DC converter, which can be supplied directly from drone battery (VDD_MAIN). 
+
+ - **Electrical characteristics**
+    - input voltage range: 6,5V - 30V
+    - maximum current output: 12A
+
+  //input voltage, max current, sustainable current, thermal photos ...
