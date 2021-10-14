@@ -12,16 +12,19 @@ Default system configuration consists of DroneCore.Pilot board connected with th
 This paragraph assumes that NVIDIA® Jetson Xavier™ NX is in 20W power mode and no other peripheral is connected to board, except one imx477 CSI camera. Video stream processing is the situation where the 20W power mode starts to play a role. We describe some default situations for reference.
  
   - **Situation 1:**
+    - Xavier NX statistics: 
+![jtop_booted](uploads/808482871197e9bb14ee5cc4375dcded/jtop_booted.png)
     - NVIDIA® Jetson Xavier™ NX: booted, with no user code running
     - Cube Orange: off
     - imx477: off
     - power consumption 3,4W 
 
   - **Situation 2:**
+    - Xavier NX statistics: (as in situation 1)
     - NVIDIA® Jetson Xavier™ NX: booted, with no user code running
     - Cube Orange: on
     - imx477: off
-    - power consumption 5,4W 
+    - power consumption 4,6W 
 
   - **Situation 3:**    
     - Xavier NX statistics: 
