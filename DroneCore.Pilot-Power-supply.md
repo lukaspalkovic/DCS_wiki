@@ -1,4 +1,4 @@
-**Power supply diagram**
+# Power supply diagram
 
 ![aepilot1_power_supply_diagram.svg](uploads/fd7d7291101b34e284d886675b0bf097/aepilot1_power_supply_diagram.svg)
 
@@ -6,7 +6,7 @@
 
 &nbsp;
 
-**DroneCore.Pilot power consumption**
+#DroneCore.Pilot power consumption
 
 Default system configuration consists of DroneCore.Pilot board connected with the Cube Orange and NVIDIA® Jetson Xavier™ NX Module. Power consumption of the whole system depends on usage of Jetson Xavier™ NX computing power and peripheral devices connected to board. 
 This paragraph assumes that NVIDIA® Jetson Xavier™ NX is in 20W power mode and no other peripheral is connected to board, except one imx477 CSI camera. Video stream processing is the situation where the 20W power mode starts to play a role. We describe some default situations for reference.
