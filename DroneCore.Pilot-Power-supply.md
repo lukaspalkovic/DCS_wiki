@@ -43,6 +43,8 @@ As you can see in the "Power supply diagram", DroneCore.Pilot board contains 5V 
 
  - **Electrical characteristics**
     - input voltage range: 6,5V - 30V
-    - maximum current output: 12A
+    - maximum current output: 12A (20 seconds peak)
+    - sustainable maximum current: 8A (with proper cooling)    
+    - maximum temperature 150 degrees
 
-  //input voltage, max current, sustainable current, thermal photos ...
+ 
