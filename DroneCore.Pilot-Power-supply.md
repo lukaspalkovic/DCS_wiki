@@ -47,4 +47,6 @@ As you can see in the "Power supply diagram", DroneCore.Pilot board contains 5V 
     - sustainable maximum current: 8A (with proper cooling)    
     - maximum temperature 150 degrees
 
+
+//TODO add some thermal photos with description
  
