@@ -21,7 +21,7 @@ This paragraph assumes that NVIDIA® Jetson Xavier™ NX is in 20W power mode an
     - NVIDIA® Jetson Xavier™ NX: booted, with no user code running
     - Cube Orange: on
     - imx477: off
-    - power consumption --W 
+    - power consumption 5,4W 
 
   - **Situation 3:**    
     - Xavier NX statistics: 
