@@ -49,8 +49,6 @@ As you can see in the "Power supply diagram", DroneCore.Pilot board contains 5V 
     - input voltage range: 6,5V - 30V
     - maximum current output: 12A (20 seconds peak)
     - sustainable maximum current: 8A (with proper cooling)  
- 
- &nbsp;
 
   - **Thermal characteristics**
     - maximum temperature 150 degrees
@@ -59,12 +57,10 @@ As you can see in the "Power supply diagram", DroneCore.Pilot board contains 5V 
       - measured at room temperature  
       - measured at steady state after 10 minutes, without active cooling
       - temperature was culminating at approx 60degrees after 10 minutes
-<img src="uploads/df7e7b850c4b25140adf8652fab43009/5A10min.jpg" alt="5A10MIN" style="width:500px;height:600px;">
-
-    - **measurement 2:** 
+<img src="https://gitlab.com/aerobtec-drones/ae_pilot1_documentation/-/wikis/uploads/df7e7b850c4b25140adf8652fab43009/5A10min.jpg" alt="5A10MIN" width="350" height="250" float="right"/>
+    - **measurement 2:**
       - total 40W power consumption of whole system
       - measured at room temperature  
       - measured at steady state after 10 minutes, without active cooling
       - temperature was culminating at approx 90degrees after 10 minutes
-![8A10min](uploads/1cbfc825e9a572b9fe067033636790fa/8A10min.jpg)
- 
+<img src="https://gitlab.com/aerobtec-drones/ae_pilot1_documentation/-/wikis/uploads/1cbfc825e9a572b9fe067033636790fa/8A10min.jpg" alt="5A10MIN" width="350" height="250" float="right"/>
