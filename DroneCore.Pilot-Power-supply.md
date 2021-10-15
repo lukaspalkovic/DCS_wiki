@@ -59,6 +59,7 @@ As you can see in the "Power supply diagram", DroneCore.Pilot board contains 5V 
       - measured at room temperature  
       - measured at steady state after 10 minutes, without active cooling
       - temperature was culminating at approx 60degrees after 10 minutes
+
 ![5A10min](uploads/df7e7b850c4b25140adf8652fab43009/5A10min.jpg)
 
     - **measurement 2:** 
