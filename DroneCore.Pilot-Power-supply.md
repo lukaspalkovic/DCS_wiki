@@ -52,15 +52,17 @@ As you can see in the "Power supply diagram", DroneCore.Pilot board contains 5V 
 
   - **Thermal characteristics**
     - maximum temperature 150 degrees
-    - **measurement 1:** 
-      - total 25W power consumption of whole system
-      - measured at room temperature  
-      - measured at steady state after 10 minutes, without active cooling
-      - temperature was culminating at approx 60degrees after 10 minutes
+     
+**thermal measurement 1:** 
+ - total 25W power consumption of whole system
+ - measured at room temperature  
+ - measured at steady state after 10 minutes, without active cooling
+ - temperature was culminating at approx 60degrees after 10 minutes
 <img src="https://gitlab.com/aerobtec-drones/ae_pilot1_documentation/-/wikis/uploads/df7e7b850c4b25140adf8652fab43009/5A10min.jpg" alt="5A10MIN" width="350" height="250" float="right"/>
-    - **measurement 2:**
-      - total 40W power consumption of whole system
-      - measured at room temperature  
-      - measured at steady state after 10 minutes, without active cooling
-      - temperature was culminating at approx 90degrees after 10 minutes
+
+**thermal measurement 2:**
+   - total 40W power consumption of whole system
+   - measured at room temperature  
+   - measured at steady state after 10 minutes, without active cooling
+   - temperature was culminating at approx 90degrees after 10 minutes
 <img src="https://gitlab.com/aerobtec-drones/ae_pilot1_documentation/-/wikis/uploads/1cbfc825e9a572b9fe067033636790fa/8A10min.jpg" alt="5A10MIN" width="350" height="250" float="right"/>
