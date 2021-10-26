@@ -253,7 +253,7 @@
 
 **ETHERNET**
 
-- compatible with standard 16 pin / 0.5mm pitch FPC cables 
+- compatible with standard 16 pin / 0.5mm pitch same-side contacts FPC cables 
 - to be able to connect Jetson to network via standard ethernet cable, use aepilot1_ethernet_expansion_board
 - shares 5V supply with FAN1 and FAN2 connectors with 480mA current limitation
 
