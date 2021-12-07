@@ -276,9 +276,9 @@
 | 15 | 5V |
 | 16 | 5V |
 
-**CSI D (4-lines CSI)**
+**CSI D (4-lanes CSI)**
 
-- 4 lines MIPI CSI connectors
+- 4 lanes MIPI CSI connectors
 - power to this connector is not protected so be aware of potential short-circuits on the connected devices. 
 - pay attention to cable pins orientation (same / opposite side contacts). Wrong cable can cause short-circuit!
 - separate MCLK pin (pin 122 on Jetson)
