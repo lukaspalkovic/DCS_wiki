@@ -6,10 +6,15 @@
   - supports WS2812 pwm communication protocol
   - possible to connect up to 50 leds in sum of all channels
   - FRONT L, FRONT R, BACK L and BACK R are set to support maximum of 10 LEDs per channel
+  - FRONT L, FRONT R, BACK L and BACK R channels can be controlled with predefined effects
   - LED ADD is set to support maximum of 40 connected LEDs
+  - LED ADD can be controlled from Jetson only
   - LED effects can be controlled from Jetson driver through I2C    
 
-  - // add link to tutorial / example program
+&nbsp;
+  PWM LEDs can be controlled in two ways: as "predefined effect" or as "custom effect". **Predefined effects** are controlled directly from DroneCore.Power board. There are, at present, two predefined effects: toggling and circle. These effects can be set from Jetson, while you only need to set color for channel and timing, and .Power board will handle them itself. You can also modify LEDs effect after power up board with button. 
+**Custom effects** are controlled from Jetson. You can create your own effects by filling arrays of RGB colors and triggering LEDs update. This all can be easily done with provided ROS package. [LED control ROS package](url)
+
 
 &nbsp;
 
