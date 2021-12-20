@@ -1,0 +1,1 @@
+There are three ways how to connect to Nvidia Jetson from host computer: micro-usb cable connection through SSH, micro-usb cable connection through serial terminal (putty), wireless connection through SSH.
