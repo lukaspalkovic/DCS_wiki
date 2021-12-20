@@ -25,3 +25,10 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
 `sudo usermod -d /home/desired_username -m desired_username`  
 `sudo groupmod -n desired_username current_username`
 
+**Changing ubuntu user-password:**
+ - execute following commands in terminal
+....
+
+**Changing WIFI SID:**
+ - execute following commands in terminal
+...
