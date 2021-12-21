@@ -4,8 +4,8 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
 
 ## Connection and configuration flow
   - the use of complete DroneCore.Suite with nvidia jetson assembled is assumed.
-  - connect usb cable from host PC (usb type A) to usb/serial converter(usb micro B)
-  - connect 3pin JST cable from usb/serial converter to connector on DroneCore.Power board marked as CONFIG.
+  - connect usb cable from host PC (usb type A) to USB adapter Alink(usb micro B)
+  - connect 3pin JST cable from USB adapter Alink to connector on DroneCore.Power board marked as CONFIG.
   - start AMC_manager application and open corresponding COM port (according to manual below)
   - connect usb cable from host PC to USB_DEV connector on the .Pilot board (or use WIFI and skip this step)
   - power on board (recommended to use battery or strong power supply as power source)
