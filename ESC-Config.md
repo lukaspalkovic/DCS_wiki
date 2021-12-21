@@ -1,5 +1,5 @@
 # ESC Configuration
-// zakladny popis
+Four on-board configuration  
 
 ## Connection and environment
 // pripojenie kablov 
@@ -13,3 +13,4 @@
 
 ## Motor test 
 // mission planner motor testing
+// link na ardupilot wiki ak to maju zdokumentovane
