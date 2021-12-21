@@ -6,6 +6,8 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
   - open terminal on Linux host computer 
   - type 'ssh DCS_user@192.168.55.1' (DCS_user is default username)
 ![ssh_login11](uploads/eb7acc496b64095a67dc39314b6d13c5/ssh_login11.png)
+<img src="uploads/eb7acc496b64095a67dc39314b6d13c5/ssh_login11.png"  width="120" height="120">
+
   - enter password (default password = dronecore)
 ![ssh_login22](uploads/955bef4efbb5c315fc2b5219becb61c4/ssh_login22.png)
   - you are in
