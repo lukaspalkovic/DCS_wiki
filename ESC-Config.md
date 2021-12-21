@@ -10,12 +10,13 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
   - connect usb cable from host PC to USB_DEV connector on the .Pilot board (or use WIFI and skip this step)
   - power on board (recommended to use battery or strong power supply as power source)
   - connect to nvidia jetson (ssh/serial terminal)
-  - start esc_configuration skript by executing `sudo ./esc_configuration` (Location: ??)
+  - start esc_configuration script
   - follow the steps in esc_configuration script
 
 
 
 ## Configuration control script 
+//by executing `sudo ./esc_configuration` (Location: ??)
 // manual k skriptu , priebeh konfiguracie (diagram - aepilot1 projekt wiki) 
 
 ## AMC_manager manual 
