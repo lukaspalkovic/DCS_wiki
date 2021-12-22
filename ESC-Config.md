@@ -18,8 +18,33 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
 ## Configuration control script 
   - esc_configuration is simple console application which communicates with .Power board through I2C peripheral.
   - location of the script:  ???(location in system image) 
-  - run script by `sudo ./esc_configuration`
-<img src="uploads/a98d76043d56bb8d7852ea4b99e1c518/esc_config.png"  width="750"> 
+  - run script by `./esc_configuration`
+<img src="uploads/cbd4191ab04b33b81c80ad062ba6d910/esc_config_app.png"  width="750"> 
+
+  - pressing 'ENTER' will lead you through the whole configuration flow
+
+ &nbsp;
+
+**esc_configuration application flow:** 
+```mermaid
+graph TD
+    A(Program state run) -->|start esc_configuration app| B(All OFF)
+    B -->|'ENTER'| C(ESC0_active)
+    B -->|'q'| A
+    C -->|'ENTER'| D(All OFF)
+    C -->|'q'| A
+    D -->|'ENTER'| E(ESC1_active)
+    D -->|'q'| A
+    E -->|'ENTER'| F(All OFF)
+    E -->|'q'| A
+    F -->|'ENTER'| G(ESC2_active)
+    F -->|'q'| A
+    G -->|'ENTER'| H(All OFF)
+    G -->|'q'| A
+    H -->|'ENTER'| I(ESC3_active)
+    H -->|'q'| A
+    I -->|'ENTER' / 'q'| A 
+```
 
 
 ## AMC_manager manual 
