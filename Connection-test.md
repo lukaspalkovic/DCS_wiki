@@ -12,7 +12,7 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
   - enter password (default password = dronecore)
 <img src="uploads/955bef4efbb5c315fc2b5219becb61c4/ssh_login22.png"  width="750">  
 
-  - you are in
+  - now user is remotely connected to jetson terminal
 
 &nbsp;
 
@@ -27,7 +27,7 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
   - enter password (default password = dronecore)
 <img src="uploads/8a592c0297ebc1c782a4185d820ba9dd/wifi_login1.png"  width="750">  
 
-- you are in
+- now user is remotely connected to jetson terminal
 
 
 &nbsp;
@@ -43,7 +43,7 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
   - enter password (default password = dronecore)
 <img src="uploads/3f25c164a0b12c55afae16040ec46048/putty2.png"  width="750"> 
 
-  - you are in
+  - now user is remotely connected to jetson terminal
 
 
 &nbsp;
