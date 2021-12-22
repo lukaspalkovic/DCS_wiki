@@ -268,14 +268,18 @@ AMC_manager is an application for setting up, managing and testing ESC. The appl
    - Fill motor name
    - Save to local database  
 
-
-
-
-
-
-
-
+&nbsp;
 
 ## Motor test 
-// mission planner motor testing
-// link na ardupilot wiki ak to maju zdokumentovane
+The best way how to test communication and settings between Flight controller unit and motors is to perform motor test in Mission planner application.
+
+[link to official Mission planner wiki page](https://ardupilot.org/planner/docs/mission-planner-overview.html)
+
+**Instructions :**
+  - Connect usb cable between Windows Host PC and  flight controller unit (micro usb connector from the side)
+<img src="uploads/c2e0d60a82f016174015e3198fed01a4/IMG_20211222_102145.jpg"  width="350"> 
+
+  - power up DroneCore.Suite
+  - open Mission planner
+  - connect to flight controller unit with Mission planner
+  - in Mission planner go to Setup/Optional hardware/Motor test
