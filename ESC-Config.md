@@ -271,7 +271,7 @@ AMC_manager is an application for setting up, managing and testing ESC. The appl
 &nbsp;
 
 ## Motor test 
-The best way how to test communication and settings between Flight controller unit and motors is to perform motor test in Mission planner application.
+The best way how to test direction and order of motors is to perform motor test in Mission planner application.
 
 [link to official Mission planner wiki page](https://ardupilot.org/planner/docs/mission-planner-overview.html)
 
@@ -283,3 +283,5 @@ The best way how to test communication and settings between Flight controller un
   - open Mission planner
   - connect to flight controller unit with Mission planner
   - in Mission planner go to Setup/Optional hardware/Motor test
+
+////...
