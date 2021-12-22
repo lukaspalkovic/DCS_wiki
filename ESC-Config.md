@@ -1,5 +1,5 @@
 # ESC Configuration
-There are four on-board ESCs on the DroneCore.Power board, which can be configured through host PC(Linux / Windows) application called AMC_manager. AMC_manager are able to connect to ESC, configure parameters, identify motor, read error messages, update firmware and so on. For the purpose of switching between individual ESCs we provide configuration application, which is executed directly on jetson. Esc configuration app is a part of provided system image. 
+There are four on-board ESCs on the DroneCore.Power board, which can be configured through host PC(Linux / Windows) application called AMC_manager. AMC_manager are able to connect to ESC, configure parameters, identify motor, read error messages, update firmware and so on. For the purpose of switching between individual ESCs there is configuration application, which is executed directly on jetson. Esc configuration app is a part of provided system image. 
 
 
 ## Connection and configuration flow
@@ -8,7 +8,7 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
   - connect 3pin JST cable from USB adapter Alink to connector on DroneCore.Power board marked as CONFIG.
   - start AMC_manager application and open corresponding COM port (according to manual below)
   - connect usb cable from host PC to USB_DEV connector on the .Pilot board (or use WIFI and skip this step)
-  - power on board (recommended to use battery or strong power supply as power source)
+  - power on board (use of battery or strong power supply as power source is recommended)
   - connect to nvidia jetson (ssh/serial terminal)
   - start esc_configuration app
   - follow the steps in esc_configuration app
@@ -21,7 +21,7 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
   - run script by `./esc_configuration`
 <img src="uploads/cbd4191ab04b33b81c80ad062ba6d910/esc_config_app.png"  width="750"> 
 
-  - pressing 'ENTER' will lead you through the whole configuration flow
+  - pressing 'ENTER' will lead user through the whole configuration flow
 
  &nbsp;
 
@@ -48,8 +48,20 @@ graph TD
 
 
 ## AMC_manager manual 
-// stiahnutie appky 
-//manual k appke (abldcmc projekt )
+AMC_manager is an application for setting up, managing and testing ESC. The application is built on the Qt platform and communication with ESC takes place via a serial port. AMC_manager runs on host PC (Win/Linux).
+
+### Download and run application
+  - Download application from link below(//TODO upload app to official storage and change download links)
+    - Windows host PC [download link](https://gitlab.com/AerobTec/ABLDCMC/-/blob/master/software/amc_manager/exec/app/compressed/AMC_manager_0_2_2_win.rar)
+    - Linux host PC [download link](https://gitlab.com/AerobTec/ABLDCMC/-/blob/master/software/amc_manager/exec/app/compressed/AMC_Manager_0_2_2_unix.tar.gz)
+  - Unpack archive 
+  - for Linux Host open terminal in unpacked folder and execute `./AMC_Manager`
+  - for Windows PC open unpacked folder and run AMC_Manager.exe
+
+
+//AMC MANAGER MANUAL ( ABLDCMC project wiki page )
+https://gitlab.com/AerobTec/ABLDCMC/-/wikis/App-manual
+
 
 ## Motor test 
 // mission planner motor testing
