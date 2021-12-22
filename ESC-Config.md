@@ -55,7 +55,7 @@ AMC_manager is an application for setting up, managing and testing ESC. The appl
     - Windows host PC [download link](https://gitlab.com/AerobTec/ABLDCMC/-/blob/master/software/amc_manager/exec/app/compressed/AMC_manager_0_2_2_win.rar)
     - Linux host PC [download link](https://gitlab.com/AerobTec/ABLDCMC/-/blob/master/software/amc_manager/exec/app/compressed/AMC_Manager_0_2_2_unix.tar.gz)
   - Unpack archive 
-  - run application
+  - Run application
     - for Linux Host open terminal in unpacked folder and execute `./AMC_Manager`
     - for Windows PC open unpacked folder and run AMC_Manager.exe
 
