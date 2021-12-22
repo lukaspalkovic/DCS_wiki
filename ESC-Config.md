@@ -12,6 +12,7 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
   - connect to nvidia jetson (ssh/serial terminal)
   - start esc_configuration app
   - follow the steps in esc_configuration app
+  - after configuration is complete, power off board and disconnect cable from CONFIG connector
 
 
 
