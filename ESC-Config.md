@@ -14,7 +14,7 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
   - follow the steps in esc_configuration app
   - after configuration is complete, power off board and disconnect cable from CONFIG connector
 
-
+&nbsp;
 
 ## Configuration control script 
   - esc_configuration is simple console application which communicates with .Power board through I2C peripheral.
@@ -278,11 +278,14 @@ The best way how to test direction and order of motors is to perform motor test 
 
 **Instructions :**
   - Connect usb cable between Windows Host PC and  flight controller unit (micro usb connector from the side)
-<img src="uploads/c2e0d60a82f016174015e3198fed01a4/IMG_20211222_102145.jpg"  width="350"> 
+<img src="uploads/c2e0d60a82f016174015e3198fed01a4/IMG_20211222_102145.jpg"  width="700"> 
 
   - power up DroneCore.Suite
   - open Mission planner
   - connect to flight controller unit with Mission planner
   - in Mission planner go to Setup/Optional hardware/Motor test
 
-////...
+<img src="uploads/fd5fa73f146dfbf80a36204aed029956/mission_planner_motor_test.png"  width="700">
+
+  - set Throttle to more than 5% (50 is default setting for Dead Zone in ESC)
+  - test individual motors with Test motor A - Test motor D buttons
