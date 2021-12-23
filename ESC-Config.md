@@ -67,7 +67,7 @@ AMC_manager is an application for setting up, managing and testing ESC. The appl
      - Manual selector   
      - Auto select with USB adapter Alink 
 
-<img src="uploads/2577e891430a71848fdd9045b39ff9e0/image__1_.png"  width="350"> 
+<img src="uploads/7c1ac22118a6be6d2444d2ff2adf8798/image__1__logoless_.png"  width="350"> 
 <img src="uploads/505bac0a401a72b085e344c006a686a0/image.png"  width="200"> 
   
    - Power up ESC (go through esc_configuration application on DroneCore.Power)
@@ -76,7 +76,7 @@ AMC_manager is an application for setting up, managing and testing ESC. The appl
      - Serial number
      - Connection state
      - COM port number  
-<img src="uploads/7caae976660aa3556cd7a0b8717ed0e8/image3.png"  width="350"> 
+<img src="uploads/ef4f1b80b1dbbc480a964ba19bd06200/image3__logoless_.png"  width="350"> 
 
 ### ESC settings
 #### PWM Input
