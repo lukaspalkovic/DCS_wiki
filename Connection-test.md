@@ -6,7 +6,7 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
   - connect usb cable from host computer to micro-usb port on DroneCore.Pilot marked as USB_DEV. 
   - power on board and wait till jetson boots
   - open terminal on Linux host computer 
-  - type `ssh DCS_user@192.168.55.1`  (DCS_user is default username)
+  - type `ssh dcs_user@192.168.55.1`  (dcs_user is default username)
 <img src="uploads/eb7acc496b64095a67dc39314b6d13c5/ssh_login11.png"  width="750">  
 
   - enter password (default password = dronecore)
@@ -23,7 +23,7 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
   - find this WIFI network and connect to it from Linux host PC
 <img src="uploads/52cc71e9190475f28771bdd5e0324d9b/wifi1.png"  width="750">  
 
-  - open terminal on host PC and type `ssh DCS_user@10.42.0.1` (DCS_user is default username)  
+  - open terminal on host PC and type `ssh dcs_user@10.42.0.1` (dcs_user is default username)  
   - enter password (default password = dronecore)
 <img src="uploads/8a592c0297ebc1c782a4185d820ba9dd/wifi_login1.png"  width="750">  
 
