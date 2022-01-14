@@ -19,7 +19,7 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
 ## WIFI connection through SSH
   - WIFI card with antennas must be assembled on the board. (M2 WIFI cards verified: Intel AC-9260NGW, Intel AC-8265NGW)
   - power on board and wait till jetson boots
-  - jetson automatically creates WIFI hotspot with SSID: DSC_wifi, PASSWORD: dronecore
+  - jetson automatically creates WIFI hotspot with SSID: DCS_wifi, PASSWORD: dronecore
   - find this WIFI network and connect to it from Linux host PC
 <img src="uploads/52cc71e9190475f28771bdd5e0324d9b/wifi1.png"  width="750">  
 
