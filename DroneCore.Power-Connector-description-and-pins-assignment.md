@@ -1,5 +1,7 @@
 ## Board to board top connector
-![b2b_connecto_powerb](uploads/1d3214b69ac5ceef298804148f1d1814/b2b_connecto_powerb.png)
+
+<img src="uploads/f3b0a7a06f004508e2d9695226eb3697/b2b_connector_powerb.png"  width="750">
+
 -board supplies B2B connector with VDD_MAIN_SWITCHED which is VDD_MAIN controlled by MCU on the board
 
 | pin | function | pin | function |
@@ -48,7 +50,9 @@
 
 ## Top side connectors 
 
-//ADD photo of new revision with connectors pin1 direction mark (changes in config connector 2pin->3pin)
+<img src="uploads/2ae1e6e8f2b3995a825059d3a4e9fa39/power_top_side.png"  width="750"> 
+
+&nbsp;
 
 **CONFIG**
 | pin | function |
@@ -84,7 +88,9 @@
 
 ## Bottom side connectors
 
-//ADD photo of new revision (changed logo and regulator unassembled)
+<img src="uploads/ec57ff9733ab3c526949ca2a72574ea8/power_bott_side.png"  width="750"> 
+
+&nbsp;
 
 **BAT CELLS**
 | pin | function |
