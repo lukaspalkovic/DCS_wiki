@@ -1,6 +1,6 @@
 ## Board to board bottom connector
 
-![b2b_connector](uploads/84ca170feea9d025e0a72a419e6905b0/b2b_connector.png)
+<img src="uploads/84ca170feea9d025e0a72a419e6905b0/b2b_connector.png"  width="750">
 
 - matching connector: ept 404-52080-51
 - ready to connect with DroneCore.Power
