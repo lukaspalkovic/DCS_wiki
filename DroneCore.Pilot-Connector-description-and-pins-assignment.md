@@ -54,7 +54,7 @@
 ## The Cube connectors
 - all Cube related connector signal names come from official The Cube autopilot carrier board [git](https://github.com/proficnc/The-Cube).
 
-![board_top_cube_part](uploads/603f7fd81d5e096e5b1a724c6aec95b4/board_top_cube_part.png)
+<img src="uploads/8f1411f51576e62abedce13cd9bc5076/pilot_top_cube_part.png"  width="750"> 
 
 **AUTOPILOT CONNECTOR**
 
@@ -189,7 +189,7 @@
 
 ## Nvidia Jetson connectors
 
-![board_top_jetson_part](uploads/43ce073929d1329ddf2e92f3d77470ef/board_top_jetson_part.png)
+<img src="uploads/8aef2f6b221c26e5f97323411a66bc02/pilot_top_jetson_part.png"  width="750">
 
 **GPS (Jetson)**
 
