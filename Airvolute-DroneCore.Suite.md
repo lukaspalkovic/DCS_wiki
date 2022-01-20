@@ -1,5 +1,3 @@
-# DroneCore.Suite
-
 ### Autonomous AI drone solution for developers
 
 One-stop solution for drone developers combining the best features of Nvidia Jetson NX and The Cube autopilot with the AI ready autonomous software stack, rich connectivity and various payload support. Designing and developing of enterprise-grade autonomous drones has never been easier. It is time to focus on your drone based applications!
