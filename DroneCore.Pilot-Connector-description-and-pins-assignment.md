@@ -56,6 +56,8 @@
 
 <img src="uploads/8f1411f51576e62abedce13cd9bc5076/pilot_top_cube_part.png"  width="750"> 
 
+&nbsp;
+
 **AUTOPILOT CONNECTOR**
 
  - connector compatible with [The Cube Autopilot](https://ardupilot.org/copter/docs/common-thecube-overview.html)
@@ -190,6 +192,8 @@
 ## Nvidia Jetson connectors
 
 <img src="uploads/8aef2f6b221c26e5f97323411a66bc02/pilot_top_jetson_part.png"  width="750">
+
+&nbsp;
 
 **GPS (Jetson)**
 
