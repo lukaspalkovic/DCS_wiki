@@ -27,12 +27,12 @@
 
 &nbsp;
 
-- **I2C to B2B connector** 
-  Provided ROS package contains also functions to get information and control DroneCore.Power board. It`s possible, for example, to read errors from ESCs, read serial number or set drone-arm state which disables some functions of the board for safety. There is also application in the provided image to control ESCs configuration flow. 
+- **I2C to B2B connector**  
    - connecting DroneCore.Pilot board creates direct I2C connection between Jetson and .Power board
   - .Power board acts like a slave device
   - I2C address 0x20 (0x10 from jetson driver without R/W bit) 
   - clock speed up to 1MHz 
+   Provided ROS package contains also functions to get information and control DroneCore.Power board. It`s possible, for example, to read errors from ESCs, read serial number or set drone-arm state which disables some functions of the board for safety. There is also application in the provided image to control ESCs configuration flow. 
 
 &nbsp;
 
