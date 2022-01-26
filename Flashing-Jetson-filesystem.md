@@ -30,3 +30,7 @@ This section is about how to flash jetson with provided system image.
   - execute `sudo ./flash.sh -r jetson-xavier-nx-devkit-emmc mmcblk0p1` (for Xavier NX and internal EMMC)
   - for other options with flash script see [Flashing and Booting the Target Device](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/flashing.html)
 <img src=""  width="750">  
+
+
+# Custom system
+..........
