@@ -315,9 +315,10 @@
 
 **CSI A,B,C,E,F (2-lines CSI)**
 
+- 22pin ZIF connectors
 - 2 lines MIPI CSI connectors
 - power to these connectors are not protected so be aware of potential short-circuits on the connected devices. 
-- pay attention to cable pins orientation (same / opposite side contacts). Wrong cable can cause short-circuit!
+- pay attention to cable pins orientation (same / opposite side contacts). Cameras from different manufacturers can have different pin order, so wrong cable can cause short-circuit!
 - CSI A,B,C shares the same MCLK pin (pin 116 on Jetson)
 - CSI E,F shares the same MCLK pin (pin 216 on Jetson)
 - I2C and PWND are 3V3 logic
@@ -347,10 +348,11 @@
 | 21 | CSI_D0_N |
 | 22 | GND |
 
-**USB A,B,C,D**
+**USB A,B,C,D (15 pin ZIF connectors)**
 
-- USB 3.0 connectors 
-- maximum power supply: USB A:  10W, USB B,C,D: 5W 
+- these connectors can be connected/unconnected only when system is power-off !
+- USB 3.0 standard 
+- maximum power supply: USB A: 10W, USB B,C,D: 5W 
 - connectors are protected against overcurrent, separately on every port. 
 - compatible with Molex 538-15021 cable series
 - voltage levels according to usb standards
