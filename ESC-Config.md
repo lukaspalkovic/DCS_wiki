@@ -18,7 +18,7 @@ There are four on-board ESCs on the DroneCore.Power board, which can be configur
 
 ## Configuration control application 
   - esc_configuration is simple console application which communicates with .Power board through I2C peripheral.
-  - location of the script:  ???(location in system image) 
+  - location of the script:  home/dcs_user/useful_scripts_apps/
   - run script by `./esc_configuration`
 <img src="uploads/cbd4191ab04b33b81c80ad062ba6d910/esc_config_app.png"  width="750"> 
 
