@@ -91,6 +91,8 @@
 | 3 | GND |
 
 **BEEP**
+- matching connector Hirose DF13-2S-1.25C
+
 | pin | function |
 | ------ | ------ |
 | 1 | BUZZER+ |
