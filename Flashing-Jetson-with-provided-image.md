@@ -16,7 +16,7 @@ This section is about how to flash jetson with provided system image.
   - download `custom_system.img.raw` from storage [KDE BUDU ULOZENE IMAGES ??](link)
   - backup original system.img and system.img.raw in .../Linux_for_Tegra/bootloader/ directory
   - move `custom_system.img.raw` to `/nvidia/nvidia_sdk/$target_working_directory/Linux_for_Tegra/bootloader` as `system.img`
-(`sudo mv custom_system.img.raw .../$target_working_directory/Linux_for_Tegra/bootloader/system.img`)
+(`sudo mv custom_system.img.raw .../JetPack_4.6_Linux_JETSON_XAVIER_NX_TARGETS/Linux_for_Tegra/bootloader/system.img`)
 
 **Run Jetson in Recovery mode**
   - the use of complete DroneCore.Suite is assumed
