@@ -55,6 +55,8 @@
 &nbsp;
 
 **CONFIG**
+- matching connector JST GHR-03V-S
+
 | pin | function |
 | ------ | ------ |
 | 1 | GND |
@@ -63,6 +65,8 @@
 
 
 **EXT. BUTTON**
+- matching connector JST GHR-03V-S
+
 | pin | function |
 | ------ | ------ |
 | 1 | 3V3 |
@@ -70,6 +74,9 @@
 | 3 | GND |
 
 **EXT. CAN**
+- matching connector JST GHR-04V-S
+- solder SB3(solder bridge) to power this connector with 5V 
+
 | pin | function |
 | ------ | ------ |
 | 1 | GND |
@@ -78,6 +85,7 @@
 | 4 | 5V |
 
 **LED FRONT L, LED FRONT R, LED BACK L, LED BACK R, LED ADD**
+- matching connector JST GHR-03V-S
 - sum of current of all led channels on 5V line is limited to 2.5A
 
 | pin | function |
@@ -93,6 +101,8 @@
 &nbsp;
 
 **BAT CELLS**
+- matching connector JST GHR-06V-S
+
 | pin | function |
 | ------ | ------ |
 | 1 | CELL6 |
@@ -103,6 +113,8 @@
 | 6 | CELL1 |
 
 **BMS I2C**
+- matching connector JST GHR-04V-S
+
 | pin | function |
 | ------ | ------ |
 | 1 | GND |
