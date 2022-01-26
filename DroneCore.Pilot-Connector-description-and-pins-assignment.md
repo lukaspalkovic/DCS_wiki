@@ -253,7 +253,6 @@
 | 8 | GND |
 
 **FAN1**
-
 - FAN1 and FAN2 are connected in parallel
 - standard fan connector, matching with Molex 47054-1000 header
 - only one 4-pin fan controlled with pwm/tach can be connected
@@ -269,7 +268,6 @@
 | 4 | FAN_PWM |
 
 **FAN2**
-
 - matching with Molex 51021-0400 cable header
 - compatible with xavier nx original cooler
 - shares 5V supply with FAN1 and ETHERNET connector with 480mA current limitation
