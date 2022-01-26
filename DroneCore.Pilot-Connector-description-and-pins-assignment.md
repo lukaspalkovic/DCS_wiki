@@ -59,10 +59,11 @@
 &nbsp;
 
 **AUTOPILOT CONNECTOR**
-
  - connector compatible with [The Cube Autopilot](https://ardupilot.org/copter/docs/common-thecube-overview.html)
 
 **BAT_SENS**
+- matching connector JST GHR-03V-S 
+
 | pin | function |
 | ------ | ------ |
 | 1 | BAT_VOLTAGE_SENS_PROT |
@@ -70,7 +71,7 @@
 | 3 | GND |
 
 **ADC**
-
+- matching connector JST GHR-03V-S
 - all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A current limitation
 
 | pin | function |
@@ -80,6 +81,9 @@
 | 3 | GND |
 
 **PPM**
+- matching connector JST GHR-03V-S
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A
+
 | pin | function |
 | ------ | ------ |
 | 1 | PPM_SBUS_PROT |
@@ -93,6 +97,9 @@
 | 2 | BUZZER- |
 
 **GPS2**
+- matching connector JST GHR-06V-S
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -103,6 +110,9 @@
 | 6 | GND |
 
 **GPS1**
+- matching connector JST GHR-08V-S
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -115,6 +125,9 @@
 | 8 | GND |
 
 **I2C**
+- matching connector JST GHR-04V-S
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -123,8 +136,8 @@
 | 4 | GND |
 
 **SERIAL1**
-
 - SERIAL1 connector has separate 5V protected line, with 1A current limitation
+- matching connector JST GHR-06V-S
 
 | pin | function |
 | ------ | ------ |
@@ -136,6 +149,9 @@
 | 6 | GND |
 
 **SERIAL5**
+- matching connector JST GHR-06V-S
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -146,6 +162,9 @@
 | 6 | GND |
 
 **CAN1**
+- matching connector JST GHR-04V-S
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A
+
 | pin | function |
 | ------ | ------ |
 | 1 | 5V |
@@ -154,8 +173,9 @@
 | 4 | GND |
 
 **CAN2**
-
-- CAN2 is also routed to B2B connector, so if AE_PB6S40A is used, CAN2 is natively interconnected
+- matching connector JST GHR-04V-S
+- CAN2 is also routed to B2B connector, so if DroneCore.Power is connected, CAN2 is natively interconnected
+- all peripheral connectors (except SERIAL1) shares 5V protected power supply with 1,5A
 
 | pin | function |
 | ------ | ------ |
@@ -166,6 +186,8 @@
 
 
 **PWM1**
+- matching connector JST GHR-08V-S
+
 | pin | function |
 | ------ | ------ |
 | 1 | IO-CH1-PROT |
@@ -178,6 +200,8 @@
 | 8 | GND |
 
 **PWM2**
+- matching connector JST GHR-08V-S
+
 | pin | function |
 | ------ | ------ |
 | 1 | IO-CH8-PROT |
@@ -196,8 +220,8 @@
 &nbsp;
 
 **GPS (Jetson)**
-
-- 5V power supply shared with SPI0 connector and is limited to 480mA
+- matching connector JST GHR-06V-S
+- 5V supply shared with SPI0 (Jetson) connector and is limited to 480mA
 - UART and I2C -> 3V3 voltage logic 
 
 | pin | function |
@@ -210,7 +234,7 @@
 | 6 | GND |
 
 **SPI0 (Jetson)**
-
+- matching connector JST GHR-08V-S
 - 5V supply shared with GPS (Jetson) connector and is limited to 480mA
 - 3V3 supply not protected against overcurrent
 - 3V3 SPI voltage logic 
@@ -256,7 +280,7 @@
 | 4 | GND |
 
 **ETHERNET**
-
+- 687116183722 connector type
 - compatible with standard 16 pin / 0.5mm pitch same-side contacts FPC cables 
 - to be able to connect Jetson to network via standard ethernet cable, use aepilot1_ethernet_expansion_board
 - shares 5V supply with FAN1 and FAN2 connectors with 480mA current limitation
@@ -281,10 +305,10 @@
 | 16 | 5V |
 
 **CSI D (4-lanes CSI)**
-
+- 501951-2210 connector type
 - 4 lanes MIPI CSI connectors
 - power to this connector is not protected so be aware of potential short-circuits on the connected devices. 
-- pay attention to cable pins orientation (same / opposite side contacts). Wrong cable can cause short-circuit!
+- pay attention to cable pins orientation (same / opposite side contacts). Cameras from different manufacturers can have different pin order, so wrong cable can cause short-circuit!
 - separate MCLK pin (pin 122 on Jetson)
 - I2C and PWND are 3V3 logic
 
@@ -314,8 +338,7 @@
 | 22 | GND |
 
 **CSI A,B,C,E,F (2-lines CSI)**
-
-- 22pin ZIF connectors
+- 501951-2210 connector type
 - 2 lines MIPI CSI connectors
 - power to these connectors are not protected so be aware of potential short-circuits on the connected devices. 
 - pay attention to cable pins orientation (same / opposite side contacts). Cameras from different manufacturers can have different pin order, so wrong cable can cause short-circuit!
@@ -349,7 +372,6 @@
 | 22 | GND |
 
 **USB A,B,C,D (15 pin ZIF connectors)**
-
 - these connectors can be connected/unconnected only when system is power-off !
 - USB 3.0 standard 
 - maximum power supply: USB A: 10W, USB B,C,D: 5W 
@@ -407,11 +429,13 @@
 | 6 | GPIO_12 |
 
 **USB_DEV**
+- USB type micro B connector
 - possible to use only as jetson usb-device 
 - when micro usb cable connected between board and host PC, Jetson acts like usb-device.
 
 **HDMI**
-- connect with micro hdmi cable to external display
+- HDMI Type D connector receptacle
+- connect with micro HDMI cable to external display
 
 **M2 key E**
  - connector includes PCIE, USB2.0, USART (shared with GPS(Jetson) connector, and I2C buses
