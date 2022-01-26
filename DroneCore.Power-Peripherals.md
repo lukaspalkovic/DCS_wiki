@@ -12,7 +12,7 @@
   - LED effects can be controlled from Jetson driver through I2C    
 
 &nbsp;
-  PWM LEDs can be controlled in two ways: as "predefined effect" or as "custom effect". **Predefined effects** are controlled directly from DroneCore.Power board. There are, at present, two predefined effects: toggling and circle. These effects can be set from Jetson, while you only need to set color for channel and timing, and .Power board will handle them itself. You can also modify LEDs effect after power up board with button. 
+  PWM LEDs can be controlled in two ways: as "predefined effect" or as "custom effect". **Predefined effects** are controlled directly from DroneCore.Power board. There are, at present, two predefined effects: toggling and circle. These effects can be set from Jetson, while you only need to set color for channel and timing, and .Power board will handle them itself. You can also modify basic LEDs effect after board power-up. Functions to do this are implemented in provided ROS package. 
 **Custom effects** are controlled from Jetson. You can create your own effects by filling arrays of RGB colors and triggering LEDs update. This all can be easily done with provided ROS package. [LED control ROS package](url)
 
 
@@ -22,15 +22,15 @@
   - connecting DroneCore.Pilot board creates direct CAN connection between flight controller and Power board  
   - active messages: 
     - uavcan.equipment.esc
-    - uavcan.equipment.esc.Status (Airvolute customized)  
+    - uavcan.equipment.esc.Status   
     - uavcan.equipment.power.BatteryInfo
 
 &nbsp;
 
 - **I2C to B2B connector**
-  - connecting DroneCore.Pilot board creates direct I2C connection between Jetson and Power board
-  - Power board acts like a slave device
-  - I2C address 0x20 (0x10 from jetson driver) 
+  - connecting DroneCore.Pilot board creates direct I2C connection between Jetson and .Power board
+  - .Power board acts like a slave device
+  - I2C address 0x20 (0x10 from jetson driver without R/W bit) 
   - clock speed up to 1MHz 
 
 &nbsp;
@@ -45,6 +45,10 @@
 - **BMS I2C**  
   - BMS I2C connector is reserved for future use (not implemented yet)
 
+&nbsp;
+
+- **BAT CELLS**
+  - BAT CELLS connector is reserved for future use (not implemented yet). Info about voltage on battery cells will be available through CAN bus.
 
 &nbsp;
 
