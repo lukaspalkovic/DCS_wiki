@@ -191,7 +191,7 @@
 
 ## Nvidia Jetson connectors
 
-<img src="uploads/8aef2f6b221c26e5f97323411a66bc02/pilot_top_jetson_part.png"  width="750">
+<img src="uploads/5dff85c0d3611ed7f2525b9c3be6ed03/pilot_top_jetson_part.png"  width="750">
 
 &nbsp;
 
