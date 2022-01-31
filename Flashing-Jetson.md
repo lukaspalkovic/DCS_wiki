@@ -6,11 +6,12 @@ This section is about how to flash jetson with provided system image.
   - in following steps, jetson is unconnected from the host PC
   - download and install NVIDIA SDK manager [official web](https://developer.nvidia.com/nvidia-sdk-manager) 
   - open SDK manager 
-  - choose "Target Hardware" and "Linux" according to which system is image intended for. (Jetson Xavier NX modules , JetPack4.6 used in this example)
+  - choose "Target Hardware" and "Linux" according to which system is image intended for. (Jetson Xavier NX modules / JetPack4.6 used in this example)
   - continue through all the steps (with jetson unconnected) 
   - if SDK Manager show flash dialog, click on "Skip".
   - if installation is complete, click on "FINISH AND EXIT".
-  - now working directory for target is created in '/nvidia/nvidia_sdk/' folder.(JetPack_4.6_Linux_JETSON_XAVIER_NX_TARGETS in this example)
+  - now working directory for target is created in '/nvidia/nvidia_sdk/' folder. 
+ (JetPack_4.6_Linux_JETSON_XAVIER_NX_TARGETS in this example)
 
 **Download custom_system.img and copy to working folder:**
   - download `custom_system.img.raw` from storage [KDE BUDU ULOZENE IMAGES ??](link)
