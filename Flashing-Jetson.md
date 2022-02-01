@@ -46,6 +46,6 @@ Following instructions in materials above, the developer is able to obtain kerne
 **WARNING**
 
 Obtained kernel sources do not support all features of DroneCore.Pilot board by default, so the developer must apply some changes in kernel sources to make system working with .Pilot board. Airvolute provides JetPack-specific package with all changed files in default kernel sources, according to which the developer can customize kernel sources to match .Pilot board.
-This package contains customized pinmux, kernel drivers, device tree and configs. Choose package according to JetPack version of obtained kernel sources. Package can be downloaded from this link: [LINK NA ULOZISKO](blala)
+This package contains customized pinmux, kernel drivers, device tree and configs. Choose package according to JetPack version of obtained kernel sources. Package can be downloaded from this link: [LINK NA ULOZISKO ???](blala)
 
 
