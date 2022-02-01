@@ -41,7 +41,7 @@ If the user needs to customize system image in different way as Airvolute provid
 
 [JetPack Archives](https://developer.nvidia.com/embedded/jetpack-archive)
 
-Following instructions in materials above, the user is able to obtain kernel sources, make changes in them and flash custom system to jetson.
+Following instructions in materials above, the developer is able to obtain kernel sources, make changes in them and flash custom system to jetson.
 
 **WARNING**
 
