@@ -24,6 +24,8 @@ Out of the box device is configured to fly a quadcopter (though flight controlle
 
 <div>
 
+### Specifications:
+
 **Mechanical parameters**
 
 * Weight 247g - including Cube orange, Xavier NX, Xavier heatsink with fan
