@@ -2,17 +2,25 @@
 
 One-stop solution for drone developers combining the best features of Nvidia Jetson NX and The Cube autopilot with the AI ready autonomous software stack, rich connectivity and various payload support. Designing and developing of enterprise-grade autonomous drones has never been easier. It is time to focus on your drone based applications!
 
-DroneCore.Suite consists of two main blocks
+**DroneCore.Suite** consists of these main blocks
 
-* DroneCore.Pilot - top board for control of the aircraft containing
+* **DroneCore.Pilot** - top board for control of the aircraft containing
   * Jetson Xavier NX
   * Cube flight controller
   * Internal 5V power supply
   * Power selector
   * Peripheral connectors
   * USB hub
-* DroneCore.Power - bottom board with power electronic containing
-  * 
+* **DroneCore.Power** - bottom board with power electronic containing
+  * 4 FOC UAVCAN ESCs - 20A permanent / 40A peak current
+  * <span dir="">Power sensor</span> (battery voltage and current measurement)
+  * Analog inputs for battery cell monitoring
+  * SMBUS
+  * <span dir="">LED Driver for 4 x WS2812B strips</span>
+
+DroneCore.Suite provides easy to use ROS based software stack supporting development of autonomous applications.
+
+Out of the box device is configured to fly a quadcopter (though flight controller calibration is needed anyway).
 
 <div>
 
