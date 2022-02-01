@@ -33,5 +33,5 @@ This section is about how to flash jetson with provided system image.
 <img src=""  width="750">  
 
 
-# Custom system
+# Compilation and flashing with custom system
 ..........
