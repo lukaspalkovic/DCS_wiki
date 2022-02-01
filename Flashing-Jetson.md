@@ -1,5 +1,5 @@
 # Flashing Jetson with provided image
-This section is about how to flash jetson with provided system image. 
+DroneCore.Suite is basically shipped with jetson flashed with current version of system image. This image evolves over time, so the need to re-flash jetson system image may arise. This section is about how to flash jetson with provided system image. 
 
 ## Instructions:
 **Creating working directory for device:**
@@ -30,8 +30,22 @@ This section is about how to flash jetson with provided system image.
   - open terminal window in `.../$target_working_directory/Linux_for_Tegra/` directory
   - execute `sudo ./flash.sh -r jetson-xavier-nx-devkit-emmc mmcblk0p1` (for Xavier NX and internal EMMC)
   - for other options with flash script see [Flashing and Booting the Target Device](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/flashing.html)
-<img src=""  width="750">  
 
 
 # Compilation and flashing with custom system
-..........
+If the user needs to customize system image in different way as Airvolute provides, for example custom kernel drivers or other modifications, there are instructions in documentation provided by NVIDIA how to build own system. 
+
+[Kernel Customization](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-322/index.html#page/Tegra%2520Linux%2520Driver%2520Package%2520Development%2520Guide%2Fkernel_custom.html%23wwpID0E0QD0HA)
+
+[Flashing and Booting the Target Device](https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-322/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/flashing.html)
+
+[JetPack Archives](https://developer.nvidia.com/embedded/jetpack-archive)
+
+Following instructions in materials above, the user is able to obtain kernel sources, make changes in them and flash custom system to jetson.
+
+**WARNING**
+
+Obtained kernel sources do not support all features of DroneCore.Pilot board by default, so the developer must apply some changes in kernel sources to make system working with .Pilot board. Airvolute provides JetPack-specific package with all changed files in default kernel sources, according to which the developer can customize kernel sources to match .Pilot board.
+This package contains customized pinmux, kernel drivers, device tree and configs. Choose package according to JetPack version of obtained kernel sources. Package can be downloaded from this link: [LINK NA ULOZISKO](blala)
+
+
