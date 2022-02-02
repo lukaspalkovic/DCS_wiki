@@ -10,7 +10,7 @@ Follow these instructions to connect to flight controller from [Mission Planner]
   - power-on DroneCore.Pilot board
   - connect to jetson through ssh [LINK NA CONNECTION TEST SEKCIU](blabla)
   - open /etc/profile configuration file ```sudo nano /etc/profile```
-  - find and set MAVROS_GCS_URL export as ```export MAVROS_GCS_URL="udp-b://192.168.55.1@"```
+  - find and set MAVROS_GCS_URL as ```export MAVROS_GCS_URL="udp-b://192.168.55.1@"```
   - execute command to run mavros: ```roscd mavros && roslaunch mavros apm.launch```
   - run QGroundControl or Mission planner on host PC and it should automatically connect
   - NOTE: if there is some issues with connecting from Windows host, there is likely problem with firewall or antivirus software
