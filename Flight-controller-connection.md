@@ -13,6 +13,7 @@ Follow these instructions to connect to flight controller from [Mission Planner]
   - find and set MAVROS_GCS_URL export as ```export MAVROS_GCS_URL="udp-b://192.168.55.1@"```
   - execute command to run mavros: ```roscd mavros && roslaunch mavros apm.launch```
   - run QGroundControl or Mission planner on host PC and it should automatically connect
+  - NOTE: if there is some issues with connecting from Windows host, there is likely problem with firewall or antivirus software
 
 ### UDP(through WIFI) connection
   - assumed DroneCore.Pilot assembled with WIFI card and connected to same network as host PC
@@ -22,10 +23,14 @@ Follow these instructions to connect to flight controller from [Mission Planner]
   - exchange IP address of MAVROS_GCS_URL to the wlan0 one 
   - execute command to run mavros: ```roscd mavros && roslaunch mavros apm.launch```
   - run QGroundControl or Mission planner on host PC and it should automatically connect
-  - NOTE: if jetson is set up as WIFI access-point, IP address is _10.42.0.1_
+  - NOTE: if jetson is set up as WIFI access-point, IP address is standardly _10.42.0.1_
+  - NOTE: if there is some issues with connecting from Windows host, there is likely problem with firewall or antivirus software
+
+### USB connection
+  - connect USB cable from host PC directly to flight controller
+  - open QGroundControl or Mission planner and connect to corresponding COM port
 
 
-//// otestovat na windowse (firewall problem)
 
 
 # Flight controller configuration
