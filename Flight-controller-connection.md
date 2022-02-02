@@ -17,6 +17,7 @@ Follow these instructions to connect to flight controller from [Mission Planner]
 ### UDP(through WIFI) connection
   - assumed DroneCore.Pilot assembled with WIFI card and connected to same network as host PC
   - assumed known IP address of jetson in network ( to find IP address execute ```ifconfig``` on jetson and check IP of wlan0 connection )
+  - connect to jetson through ssh [LINK NA CONNECTION TEST SEKCIU](blabla)
   - open /etc/profile configuration file ```sudo nano /etc/profile```
   - exchange IP address of MAVROS_GCS_URL to the wlan0 one 
   - execute command to run mavros: ```roscd mavros && roslaunch mavros apm.launch```
