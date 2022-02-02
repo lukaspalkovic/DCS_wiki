@@ -6,9 +6,7 @@ Follow these instructions to connect to flight controller from [Mission Planner]
   - USB ( directly connected from host PC to flight controller ) 
  
 ### UDP(through USB) connection
-  - connect usb cable from host PC to micro-USB connector on DroneCore.Pilot board marked as USB_DEV
-  - power-on DroneCore.Pilot board
-  - connect to jetson through ssh [LINK NA CONNECTION TEST SEKCIU](blabla)
+  - assumed user logged in jetson [LINK NA CONNECTION TEST SEKCIU /MICRO USB SSH](blabla)
   - open /etc/profile configuration file ```sudo nano /etc/profile```
   - find and set MAVROS_GCS_URL as ```export MAVROS_GCS_URL="udp-b://192.168.55.1@"```
   - execute command to run mavros: ```roscd mavros && roslaunch mavros apm.launch```
@@ -20,7 +18,7 @@ Follow these instructions to connect to flight controller from [Mission Planner]
   - assumed known IP address of jetson in network ( to find IP address execute ```ifconfig``` on jetson and check IP of wlan0 connection )
   - connect to jetson through ssh [LINK NA CONNECTION TEST SEKCIU](blabla)
   - open /etc/profile configuration file ```sudo nano /etc/profile```
-  - exchange IP address of MAVROS_GCS_URL to the wlan0 one 
+  - exchange IP address of MAVROS_GCS_URL to the wlan0 one ```export MAVROS_GCS_URL="udp-b://x.x.x.x@"```
   - execute command to run mavros: ```roscd mavros && roslaunch mavros apm.launch```
   - run QGroundControl or Mission planner on host PC and it should automatically connect
   - NOTE: if jetson is set up as WIFI access-point, IP address is standardly _10.42.0.1_
