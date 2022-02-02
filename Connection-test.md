@@ -28,6 +28,7 @@ There are three ways how to connect to Nvidia Jetson from host computer: micro-u
 <img src="uploads/8a592c0297ebc1c782a4185d820ba9dd/wifi_login1.png"  width="750">  
 
 - now user is remotely connected to jetson terminal
+- NOTE: if jetson is not in access-point mode but connected to existing wifi network, user must know IP address of jetson in that network and connect to this IP `ssh dcs_user@x.x.x.x`
 
 
 &nbsp;
