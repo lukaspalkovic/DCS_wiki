@@ -5,13 +5,10 @@
 [PDF FORMAT](uploads/255396b1ac7fc4864930637860d029fa/aepilot1_block_diagram.pdf)
 
 ## Nvidia Jetson peripherals
-- **PINMUX**
-  - Jetson Nano pinmux spreadsheet, customized for aepilot1 : !TODO! upload spreadsheets
-  - Jetson Xavier NX pinmux spreadsheet, customized for aepilot1 : 
 
 &nbsp;
 
-- **GPIOs**
+#### GPIOs
 
    `Setup rules to be able to control gpios from terminal:` 
 ```
@@ -62,7 +59,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | GPIO_EXP1 | 246 | Free gpio |
 | GPIO_EXP2 | 247 | Free gpio |
 
-- **Serial ports**
+#### Serial ports
    - jetson nano (rev. 3+):
       - ttyTHS1 = uart to autopilot
       - ttyTHS2  = uart to 'GPS_Jetson' connector
@@ -79,7 +76,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 &nbsp;
 
-- **SPI ports**
+#### SPI ports
   - jetson nano
     - spidev0.0 = SPI0 (Jetson) connector 
     - spidev0.1 = SPI0 (Jetson) connector
@@ -99,7 +96,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 &nbsp;
 
-- **I2C**
+#### I2C
   - common
     - i2c-30 = CSIA connector
     - i2c-32 = CSIB connector
@@ -120,7 +117,9 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
   
    `Example program:` [link to git](https://gitlab.com/aerobtec-drones/aepilot1_lowlevel_peripheral_drivers/-/tree/master/aepilot1_i2c_driver)
 
-- **CSI CAMERAS**
+
+
+#### CSI CAMERAS
   - CSI cameras natively supported on DroneCore.Pilot board (installed with our provided software package): OV9281, IMX219, IMX412, IMX477
   - for support custom camera you need to develop v4l2 driver and write custom device tree 
  file [NVIDIA CAMERA DEVELOPMENT DOC](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/camera_dev.html#)
