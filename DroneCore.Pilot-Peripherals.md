@@ -120,10 +120,10 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 
 #### CSI CAMERAS
-  - CSI cameras natively supported on DroneCore.Pilot board (installed with our provided software package): OV9281, IMX219, IMX412, IMX477
-  - for support custom camera you need to develop v4l2 driver and write custom device tree 
+  - CSI cameras natively supported on DroneCore.Pilot board (installed with our provided system image): OV9281, IMX219, IMX477
+  - to support custom camera on CSI port the one needs to develop specific v4l2 camera driver with custom device tree. 
  file [NVIDIA CAMERA DEVELOPMENT DOC](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/camera_dev.html#)
-  - to configure custom supported camera on specific CSI port you need to configure kernel device tree. We provide some device trees with different cameras configurations which you can download on this link:  [// ADD LINK TO WIKI PAGE WITH DTS AND UPDATE TUTORIAL]() 
+ 
   
 
 
