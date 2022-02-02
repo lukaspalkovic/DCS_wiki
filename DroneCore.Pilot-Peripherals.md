@@ -122,7 +122,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 #### CSI CAMERAS
   - CSI cameras natively supported on DroneCore.Pilot board (installed with our provided system image): OV9281, IMX219, IMX477
   - to support custom camera on CSI port the one needs to develop specific v4l2 camera driver with custom device tree. 
- file [NVIDIA CAMERA DEVELOPMENT DOC](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/camera_dev.html#)
+ Instructions to do that: [NVIDIA CAMERA DEVELOPMENT DOC](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/camera_dev.html#)
+  - Airvolute provides package with source files of installed drivers and device tree, which can be used as inspiration. For more info about that go to Compilation and flashing with custom system section of Flashing Jetson page [LINK NA SEKCIU   !!! ](...)
  
   
 
