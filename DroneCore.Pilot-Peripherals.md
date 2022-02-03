@@ -10,7 +10,7 @@
 
 #### GPIOs
 
-   `Setup rules to be able to control gpios from terminal:` 
+   **Setup rules to be able to control gpios from terminal:**
 ```
    $ sudo groupadd -f -r gpio
    $ sudo usermod -a -G gpio $USER
@@ -24,7 +24,7 @@ You may either need to reboot or reload the udev rules :
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
-   `EXAMPLE: Set gpio64 logic level to LOW and then to HIGH`
+   **Example code: Set gpio64 logic level to LOW and then to HIGH**
 ```
 cat /sys/kernel/debug/gpio
 
@@ -35,7 +35,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 ```
 &nbsp;
 
-   `User controllable GPIOs with their kernel mapping numbers (NANO):`
+   **User controllable GPIOs with their kernel mapping numbers (NANO):**
 
 | HW number | Kernel mapping number | usage|
 | :--- | :---: | :--- |
@@ -47,7 +47,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 | GPIO_EXP1 | 502 | Free gpio |
 | GPIO_EXP2 | 503 | Free gpio |
 
-   `User controllable GPIOs with their kernel mapping numbers (Xavier NX):`
+   **User controllable GPIOs with their kernel mapping numbers (Xavier NX):**
 
 | HW number | Kernel mapping number | usage|
 | :--- | :---: | :--- |
@@ -72,7 +72,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 &nbsp;
 
-   `Example program:` //link to git 
+   **Example code:** //link to git 
 
 &nbsp;
 
@@ -92,7 +92,7 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
 
 &nbsp;
 
-   `Example program:` [link to git](https://gitlab.com/aerobtec-drones/aepilot1_lowlevel_peripheral_drivers/-/tree/master/aepilot1_spi_driver) 
+   **Example code:** [link to git](https://gitlab.com/aerobtec-drones/aepilot1_lowlevel_peripheral_drivers/-/tree/master/aepilot1_spi_driver) 
 
 &nbsp;
 
@@ -114,8 +114,8 @@ root@ubuntu:/home/user_name# echo 1 > /sys/class/gpio/gpio64/value
     - i2c-1 = GPS(Jetson) connector
   
 &nbsp;
-  
-   `Example program:` [link to git](https://gitlab.com/aerobtec-drones/aepilot1_lowlevel_peripheral_drivers/-/tree/master/aepilot1_i2c_driver)
+ 
+   **Example code:** [link to git](https://gitlab.com/aerobtec-drones/aepilot1_lowlevel_peripheral_drivers/-/tree/master/aepilot1_i2c_driver)
 
 
 
